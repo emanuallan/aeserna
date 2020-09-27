@@ -213,6 +213,7 @@ const Resume = () => {
 
 						{workArray.map((work) => (
 							<EducationCard
+								key={work.schoolName}
 								schoolName={work.schoolName}
 								location={work.location}
 								degree={work.degree}
@@ -232,6 +233,7 @@ const Resume = () => {
 
 						{educationArray.map((edu) => (
 							<EducationCard
+								key={edu.schoolName}
 								schoolName={edu.schoolName}
 								location={edu.location}
 								degree={edu.degree}
@@ -253,7 +255,7 @@ const Resume = () => {
 
 							<div className="flex justify-around flex-wrap">
 								{programmingLanguagesArray.map((pl) => (
-									<SkillCard name={pl.name} imgSrc={pl.imgSrc} />
+									<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
 								))}
 							</div>
 						</div>
@@ -262,7 +264,7 @@ const Resume = () => {
 
 							<div className="flex justify-around flex-wrap">
 								{framworksAndLibrariesArray.map((pl) => (
-									<SkillCard name={pl.name} imgSrc={pl.imgSrc} />
+									<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
 								))}
 							</div>
 						</div>
@@ -271,7 +273,7 @@ const Resume = () => {
 
 							<div className="flex justify-around flex-wrap">
 								{backendArray.map((pl) => (
-									<SkillCard name={pl.name} imgSrc={pl.imgSrc} />
+									<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
 								))}
 							</div>
 						</div>

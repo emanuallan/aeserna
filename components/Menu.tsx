@@ -7,8 +7,10 @@ const Menu = () => {
 
 	return (
 		<div
-			className={`py-3 
-    ${darkMode ? "text-whippy" : "text-charcoal"} flex flex-wrap font-semibold tracking-widest uppercase mb-20 `}
+			className={`pt-6 
+    ${
+		darkMode ? "text-whippy" : "text-charcoal"
+	} flex flex-wrap font-semibold tracking-widest uppercase mb-16 menuMin:mb-20 `}
 		>
 			<span className=" font-bold text-xl  text-center menuMin:float-left w-full menuMin:w-auto">
 				ALLAN E. SERNA

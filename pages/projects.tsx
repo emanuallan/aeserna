@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Menu from "../components/Menu";
 import GitHubCalendar from "react-github-calendar";
+
 import ReactTooltip from "react-tooltip";
 import HorizontalCard from "../components/HorizontalCard";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaBootstrap, FaTrophy } from "react-icons/fa";
 import {
 	SiRedux,
 	SiTailwindcss,
@@ -14,8 +15,10 @@ import {
 	SiUnity,
 	SiD3DotJs,
 	SiAdobephotoshop,
+	SiTypescript,
 } from "react-icons/si"; //got from https://react-icons.github.io/search
 import { IoIosTime } from "react-icons/io";
+import FeaturedProjectCard from "../components/FeaturedProjectCard";
 
 //border-b-2 border-yikyak
 const About = () => {
@@ -29,12 +32,14 @@ const About = () => {
 	const ReduxIcon = <SiRedux className="text-3xl text-redux" />;
 	const NextJsIcon = <SiNextDotJs className="text-3xl text-black" />;
 	const JavascriptIcon = <SiJavascript className="text-3xl text-javascript" />;
-	const MongoIcon = <SiMongodb className="text-3xl text-redux" />;
+	const MongoIcon = <SiMongodb className="text-3xl text-mongo" />;
 	const FirebaseIcon = <SiFirebase className="text-3xl text-firebase" />;
 	const UnityIcon = <SiUnity className="text-3xl text-black" />;
 	const D3Icon = <SiD3DotJs className="text-3xl text-d3" />;
 	const PhotoshopIcon = <SiAdobephotoshop className="text-3xl text-react" />;
 	const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
+	const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
+	const BootstrapIcon = <FaBootstrap className="text-4xl text-redux" />;
 
 	const projects = [
 		{
@@ -150,12 +155,35 @@ const About = () => {
 							<ReactTooltip delayShow={50} html />
 						</GitHubCalendar>
 						<div className="flex self-start mt-10 uppercase tracking-widest">
+							<FaTrophy className="text-xl mr-2 " />
+							<p>Featured Projects</p>
+						</div>
+						<div className=" w-full grid  grid-cols-1 gap-10 mt-10">
+							<FeaturedProjectCard
+								imgSrc="https://secureservercdn.net/198.71.233.109/phy.b29.myftpupload.com/wp-content/uploads/2020/06/Match-Made.png"
+								title={"Scholars"}
+								info={
+									"Scholars is a business recruiting platform that connects college students with employers for internships and entry-level positions."
+								}
+								icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
+								color="#326278"
+							/>
+							<FeaturedProjectCard
+								imgSrc="https://tallysight.com/widget.png"
+								title={"TallySight"}
+								info="Tallysight is a next-generation platform that helps sports writers, analysts, & organizations showcase their insights and grow their brand."
+								icons={[ReactIcon, NextJsIcon, TypescriptIcon, NodeIcon, CSSIcon, MongoIcon]}
+								color="#29AAE1"
+							/>
+						</div>
+						<div className="flex self-start mt-10 uppercase tracking-widest">
 							<IoIosTime className="text-xl mr-2 " />
 							<p>Older Projects</p>
 						</div>
 						<div className="grid sm:grid-cols-2 grid-cols-1 gap-10">
 							{projects?.map((p) => (
 								<HorizontalCard
+									key={p.info}
 									info={p.info}
 									imgSrc={p.imgSrc}
 									title={p.title}

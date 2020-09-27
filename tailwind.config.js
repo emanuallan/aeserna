@@ -17,6 +17,7 @@ module.exports = {
 				javascript: "#F1D43B",
 				html: "#E9642A",
 				css: "#0068BA",
+				mongo: "#66AC3D",
 			},
 			screens: {
 				xs: "320px",
