@@ -1,5 +1,5 @@
 import React from "react";
-import { DiGit, DiGithubAlt } from "react-icons/di";
+import { DiGithubAlt } from "react-icons/di";
 import { FaPlay } from "react-icons/fa";
 
 interface HorizontalCardProps {

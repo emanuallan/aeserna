@@ -1,5 +1,4 @@
 import React from "react";
-import { GiPointySword } from "react-icons/gi";
 
 interface EducationCardProps {
 	schoolName: string;
