@@ -111,7 +111,8 @@ const About = () => {
 				"https://9to5toys.com/wp-content/uploads/sites/5/2018/06/joes-new-balance-4th-of-july.jpg?quality=82&strip=all",
 			icons: [PythonIcon],
 			code: "https://github.com/emanuallan/stocko",
-			demo: "https://stocko.netlify.app/",
+			demo:
+				"https://photos.google.com/share/AF1QipPw4ZSDQKFZ6Tu_Hb8_NcpCFwFVT7tP348chXWTI_JQta8u_EtkPr4Uw7RrKEudTQ?key=Y2pwQ042OGY3dXpncmZ3cW92Y1R2dWt0dW9Bb2Vn",
 		},
 		{
 			title: "Investing Into Your Education Visual",
