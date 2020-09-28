@@ -6,6 +6,7 @@ import { MdWork } from "react-icons/md";
 import { ImRocket } from "react-icons/im";
 import SkillCard from "../components/SkillCard";
 import { AiOutlineCloudDownload } from "react-icons/ai";
+import Footer from "../components/Footer";
 
 //border-b-2 border-yikyak
 const Resume = () => {
@@ -135,10 +136,10 @@ const Resume = () => {
 			dates: "Aug. 2019 - Dec. 2019",
 			imgSrc: "https://aeserna.com/img/new-balance.jpg",
 			bullets: [
-				"Developed page banners, product headers, navigator tiles, and marketing emails using HTML, CSS, and JavaScript. 🖥 SAMPLES",
+				"Developed page banners, product headers, navigator tiles, and marketing emails using HTML, CSS, and JavaScript.",
 				"Optimized product page load times by up to 25% by compressing graphics and minifying CSS.",
 				"Peer-reviewed other team members' code, checking for responsiveness and cleanliness of code implementation.",
-				"Scripted a web crawler with a Chrome Webdriver from Selenium that scans merchandise and detects price and stock changes through data handling and CSV file i/o with Python. ⌨️ CODE",
+				"Scripted a web crawler with a Chrome Webdriver from Selenium that scans merchandise and detects price and stock changes through data handling and CSV file i/o with Python.",
 			],
 			subColor: "#E41737",
 		},
@@ -149,9 +150,9 @@ const Resume = () => {
 			dates: "May. 2019 - Aug. 2019",
 			imgSrc: "https://aeserna.com/img/dispersive-logo.png",
 			bullets: [
-				"Built a CRUD web application with ReactJS and Redux that manages permissions for certain applications based on positions in a visual workflow tree, streamlining the onboarding process. ⌨️ CODE 🖥 DEMO",
+				"Built a CRUD web application with ReactJS and Redux that manages permissions for certain applications based on positions in a visual workflow tree, streamlining the onboarding process.",
 				"Implemented various tree updating algorithms like insertion, deletion, editing, and drag & drop.",
-				"Furthered the project by developing a dashboard that shared further info. and added search & sort functionality. ⌨️ CODE 🖥 DEMO",
+				"Furthered the project by developing a dashboard that shared further info. and added search & sort functionality.",
 				"Utilized RESTful API's with GoLang and performance-tested them with Postman.",
 			],
 			subColor: "#0183FD",
@@ -286,7 +287,7 @@ const Resume = () => {
 						</div>
 					</div>
 
-					<div className="flex  justify-center pb-12">
+					<div className="flex  justify-center">
 						<a href="/docs/resume.pdf" target="_blank" download>
 							<button className="text-whippy p-4 ">
 								<AiOutlineCloudDownload className="text-2xl" />
@@ -314,6 +315,7 @@ const Resume = () => {
 							</span>
 						</div>
 					</div> */}
+					<Footer />
 				</div>
 			</div>
 		</div>

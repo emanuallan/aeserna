@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "../components/Menu";
+import Footer from "../components/Footer";
 import GitHubCalendar from "react-github-calendar";
 
 import ReactTooltip from "react-tooltip";
@@ -133,7 +134,7 @@ const About = () => {
 
 	return (
 		<div className="flex justify-center bg-charcoal ">
-			<div className={`bg-charcoal   min-h-screen h-full max-w-7xl w-full pb-20`}>
+			<div className={`bg-charcoal   min-h-screen h-full max-w-7xl w-full`}>
 				<div className="mx-10">
 					<Menu />
 					<div className="text-whippy flex flex-col items-center">
@@ -175,7 +176,7 @@ const About = () => {
 						</div>
 						<div className="flex self-start mt-10 uppercase tracking-widest">
 							<IoIosTime className="text-xl mr-2 " />
-							<p>Older Projects</p>
+							<p>Previous Projects</p>
 						</div>
 						<div className="grid sm:grid-cols-2 grid-cols-1 gap-10">
 							{projects?.map((p) => (
@@ -191,6 +192,7 @@ const About = () => {
 							))}
 						</div>
 					</div>
+					<Footer />
 				</div>
 			</div>
 		</div>
