@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import emailjs from "emailjs-com";
 import Menu from "../components/Menu";
 import { SiMinutemailer } from "react-icons/si";
 
 export default function ContactUs() {
-	const [darkMode, setDarkMode] = useState(true);
-
 	function sendEmail(e: any) {
 		e.preventDefault();
 
@@ -22,7 +20,7 @@ export default function ContactUs() {
 
 	return (
 		<div className="flex justify-center bg-charcoal ">
-			<div className={`${darkMode ? "bg-charcoal" : "bg-whippy"} h-screen max-w-7xl w-full `}>
+			<div className={`bg-charcoal h-screen max-w-7xl w-full `}>
 				<div className="mx-10">
 					<Menu />
 					<form className="contact-form uppercase tracking-widest text-whippy" onSubmit={sendEmail}>

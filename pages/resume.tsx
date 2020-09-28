@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Menu from "../components/Menu";
 import { GiGraduateCap } from "react-icons/gi";
 import EducationCard from "../components/EducationCard";
@@ -9,8 +9,6 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 
 //border-b-2 border-yikyak
 const Resume = () => {
-	const [darkMode, setDarkMode] = useState(true);
-
 	const backendArray = [
 		{
 			imgSrc: "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png",
@@ -192,7 +190,7 @@ const Resume = () => {
 
 	return (
 		<div className="flex justify-center bg-charcoal ">
-			<div className={`${darkMode ? "bg-charcoal" : "bg-whippy"} min-h-screen h-full max-w-7xl w-full `}>
+			<div className={`bg-charcoal min-h-screen h-full max-w-7xl w-full `}>
 				<div className="mx-10">
 					<Menu />
 

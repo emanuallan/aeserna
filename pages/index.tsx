@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Menu from "../components/Menu";
 
 //border-b-2 border-yikyak
 const IndexPage = () => {
-	const [darkMode, setDarkMode] = useState(true);
-
 	return (
 		<div className="flex justify-center bg-charcoal ">
-			<div className={`${darkMode ? "bg-charcoal" : "bg-whippy"}  h-full min-h-screen max-w-7xl w-full`}>
+			<div className={`bg-charcoal  h-full min-h-screen max-w-7xl w-full`}>
 				<div className="mx-10">
 					<Menu />
 

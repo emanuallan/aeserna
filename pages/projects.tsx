@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Menu from "../components/Menu";
 import GitHubCalendar from "react-github-calendar";
 
 import ReactTooltip from "react-tooltip";
 import HorizontalCard from "../components/HorizontalCard";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaBootstrap, FaTrophy } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaTrophy } from "react-icons/fa";
 import {
 	SiRedux,
 	SiTailwindcss,
@@ -22,8 +22,6 @@ import FeaturedProjectCard from "../components/FeaturedProjectCard";
 
 //border-b-2 border-yikyak
 const About = () => {
-	const [darkMode, setDarkMode] = useState(true);
-
 	const PythonIcon = <FaPython className="text-4xl text-python" />;
 	const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
 	const HTMLIcon = <FaHtml5 className="text-4xl text-html" />;
@@ -39,7 +37,6 @@ const About = () => {
 	const PhotoshopIcon = <SiAdobephotoshop className="text-3xl text-react" />;
 	const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
 	const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
-	const BootstrapIcon = <FaBootstrap className="text-4xl text-redux" />;
 
 	const projects = [
 		{
@@ -136,7 +133,7 @@ const About = () => {
 
 	return (
 		<div className="flex justify-center bg-charcoal ">
-			<div className={`${darkMode ? "bg-charcoal" : "bg-whippy"}   min-h-screen h-full max-w-7xl w-full pb-20`}>
+			<div className={`bg-charcoal   min-h-screen h-full max-w-7xl w-full pb-20`}>
 				<div className="mx-10">
 					<Menu />
 					<div className="text-whippy flex flex-col items-center">
