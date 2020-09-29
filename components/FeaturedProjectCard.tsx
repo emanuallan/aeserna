@@ -33,10 +33,8 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({ title, info, 
 
 					<div className=" flex justify-between items-center  mb-3 mt-6">
 						<div className="flex items-center">
-							{icons?.map((icon, i) => (
-								<span className="mr-2" key={i}>
-									{icon}
-								</span>
+							{icons?.map((icon) => (
+								<span className="mr-2">{icon}</span>
 							))}
 						</div>
 

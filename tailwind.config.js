@@ -18,8 +18,6 @@ module.exports = {
 				html: "#E9642A",
 				css: "#0068BA",
 				mongo: "#66AC3D",
-				scholars: "#08415C",
-				tallysight: "#E75E31",
 			},
 			screens: {
 				xs: "320px",
