@@ -91,7 +91,7 @@ const Projects = () => {
 				"A small web applet that allows users to keep track of stocks and calculate profit gains and losses, as well as, equity percentages. I created this applet with the purpose of practicing with React's hook features (useState, useEffect). Data was fetched from the Finnhub API.",
 			imgSrc: "https://aeserna.com/img/stocko.png",
 			icons: [ReactIcon, ReduxIcon, NodeIcon],
-			code: "https://github.com/emanuallan/jon-joe-script",
+			code: "https://github.com/emanuallan/stocko",
 			demo: "https://stocko.netlify.app/",
 		},
 		{
