@@ -1,10 +1,10 @@
 import React from "react";
-import Menu from "../components/Menu";
-import Footer from "../components/Footer";
+import Menu from "../../components/Menu";
+import Footer from "../../components/Footer";
 import GitHubCalendar from "react-github-calendar";
 
 import ReactTooltip from "react-tooltip";
-import HorizontalCard from "../components/HorizontalCard";
+import HorizontalCard from "../../components/HorizontalCard";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaTrophy } from "react-icons/fa";
 import {
 	SiRedux,
@@ -19,10 +19,10 @@ import {
 	SiTypescript,
 } from "react-icons/si"; //got from https://react-icons.github.io/search
 import { IoIosTime } from "react-icons/io";
-import FeaturedProjectCard from "../components/FeaturedProjectCard";
+import FeaturedProjectCard from "../../components/FeaturedProjectCard";
 
 //border-b-2 border-yikyak
-const About = () => {
+const Projects = () => {
 	const PythonIcon = <FaPython className="text-4xl text-python" />;
 	const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
 	const HTMLIcon = <FaHtml5 className="text-4xl text-html" />;
@@ -165,7 +165,7 @@ const About = () => {
 									"Scholars is a business recruiting platform that connects college students with employers for internships and entry-level positions."
 								}
 								icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
-								color="#326278"
+								color="#08415C"
 							/>
 							<FeaturedProjectCard
 								imgSrc="https://tallysight.com/widget.png"
@@ -200,4 +200,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default Projects;
