@@ -8,6 +8,7 @@ interface FeaturedProjectCardProps {
 	icons: JSX.Element[];
 	color: string;
 	handle?: string;
+	site?: string;
 	logoUrl: string;
 }
 
@@ -19,6 +20,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 	color,
 	handle,
 	logoUrl,
+	site,
 }) => {
 	return (
 		<div className="w-full">
@@ -63,10 +65,14 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 								<a href="#">By Mohammed Ibrahim</a> <span className="text-gray-600">21 SEP 2015.</span>
 							</h2> */}
 						<div>
-							{handle && (
+							{handle ? (
 								<Link href={`/projects/${handle}`} as={`/projects/${handle}`}>
 									<a className="text-blue-500 text-sm  ">View My Work</a>
 								</Link>
+							) : (
+								<a className="text-blue-500 text-sm" href={site} target="_blank">
+									Visit Site
+								</a>
 							)}
 						</div>
 					</div>

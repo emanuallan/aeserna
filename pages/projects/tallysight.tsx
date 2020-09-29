@@ -121,6 +121,7 @@ const Scholars = () => {
 									info="Tallysight is a next-generation platform that helps sports writers, analysts, & organizations showcase their insights and grow their brand."
 									icons={[ReactIcon, NextJsIcon, TypescriptIcon, NodeIcon, CSSIcon, MongoIcon]}
 									color="#29AAE1"
+									site="https://www.tallysight.com/"
 									logoUrl="https://pbs.twimg.com/profile_images/1245404820581699585/-7D3w3QX.jpg"
 								/>
 

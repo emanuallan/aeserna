@@ -1,6 +1,16 @@
 import { TiLightbulb } from "react-icons/ti";
 
-const FeatureCard = ({ title, tags, info, imgSrc, icons, code, demo }) => {
+interface FeatureCardProps {
+	title: string;
+	tags: string;
+	info: string;
+	imgSrc: string;
+	icons: JSX.Element[];
+	code: string;
+	demo: string;
+}
+
+const FeatureCard: React.FC<FeatureCardProps> = ({ title, tags, info, imgSrc, icons, code, demo }) => {
 	return (
 		<div className="max-w-sm bg-white shadow-xl rounded-lg overflow-hidden my-6 mx-4">
 			<img className="w-full h-auto object-center" src={imgSrc} alt="avatar" />
@@ -33,6 +43,9 @@ const FeatureCard = ({ title, tags, info, imgSrc, icons, code, demo }) => {
 					</svg>
 					<h1 className="px-2 text-sm">patterson@example.com</h1>
 				</div> */}
+				{false && icons}
+				{false && code}
+				{false && demo}
 			</div>
 		</div>
 	);

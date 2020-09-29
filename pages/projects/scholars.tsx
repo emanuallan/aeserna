@@ -56,7 +56,7 @@ const Scholars = () => {
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
 		},
 		{
-			title: "Articles Tool",
+			title: "Blog Tool",
 			tags: "CRUD, Content Generation",
 			info:
 				"Feature for site and business admins which allows them to create, update, and delete articles which can be read by students on the platform. This tool features the react-rte and react-html-parser npm packages.",
@@ -67,7 +67,7 @@ const Scholars = () => {
 		},
 		{
 			title: "Student Resources",
-			tags: "Buzzsprout API, O*NET API",
+			tags: "Responsive Design, O*NET API",
 			info:
 				"Feature for students so that they can explore career resources and have access to the start-up owned podcast. Each resource has its own API to which requests are made and information is received from. Each request tends to be dependent on the page breadcrumbs, therefore it is dynamic and loads only what is requested by the user.",
 			imgSrc: "/gifs/studentresources.gif",
@@ -153,6 +153,7 @@ const Scholars = () => {
 									}
 									icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
 									color="#08415C"
+									site="https://hirescholars.com/"
 									logoUrl="https://media-exp1.licdn.com/dms/image/C4E0BAQHPZloeKujdzw/company-logo_200_200/0?e=2159024400&v=beta&t=sPMZhft0EMlXU3cNUvnPpy0Kg46u5033VGQw7ex4nis"
 								/>
 
