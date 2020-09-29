@@ -166,6 +166,8 @@ const Projects = () => {
 								}
 								icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
 								color="#08415C"
+								logoUrl="https://media-exp1.licdn.com/dms/image/C4E0BAQHPZloeKujdzw/company-logo_200_200/0?e=2159024400&v=beta&t=sPMZhft0EMlXU3cNUvnPpy0Kg46u5033VGQw7ex4nis"
+								handle="scholars"
 							/>
 							<FeaturedProjectCard
 								imgSrc="https://tallysight.com/widget.png"
@@ -173,6 +175,8 @@ const Projects = () => {
 								info="Tallysight is a next-generation platform that helps sports writers, analysts, & organizations showcase their insights and grow their brand."
 								icons={[ReactIcon, NextJsIcon, TypescriptIcon, NodeIcon, CSSIcon, MongoIcon]}
 								color="#29AAE1"
+								handle="tallysight"
+								logoUrl="https://pbs.twimg.com/profile_images/1245404820581699585/-7D3w3QX.jpg"
 							/>
 						</div>
 						<div className="flex self-start mt-10 uppercase tracking-widest">

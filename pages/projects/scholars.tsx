@@ -1,43 +1,48 @@
 import React from "react";
 import Menu from "../../components/Menu";
 import Footer from "../../components/Footer";
-import GitHubCalendar from "react-github-calendar";
 import FeatureCard from "../../components/FeatureCard";
-import ReactTooltip from "react-tooltip";
-import HorizontalCard from "../../components/HorizontalCard";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaTrophy, FaStar } from "react-icons/fa";
+import {
+	FaReact,
+	FaNodeJs,
+	FaStar,
+	// FaHtml5,
+	// FaCss3Alt,
+	// FaPython,
+	// FaTrophy,
+} from "react-icons/fa";
 import {
 	SiRedux,
 	SiTailwindcss,
-	SiNextDotJs,
-	SiJavascript,
-	SiMongodb,
 	SiFirebase,
-	SiUnity,
-	SiD3DotJs,
-	SiAdobephotoshop,
-	SiTypescript,
+	// SiNextDotJs,
+	// SiJavascript,
+	// SiMongodb,
+	// SiUnity,
+	// SiD3DotJs,
+	// SiAdobephotoshop,
+	// SiTypescript,
 } from "react-icons/si"; //got from https://react-icons.github.io/search
 import FeaturedProjectCard from "../../components/FeaturedProjectCard";
 import Testimonial from "../../components/Testimonial";
 
 //border-b-2 border-yikyak
 const Scholars = () => {
-	const PythonIcon = <FaPython className="text-4xl text-python" />;
-	const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
-	const HTMLIcon = <FaHtml5 className="text-4xl text-html" />;
+	// const PythonIcon = <FaPython className="text-4xl text-python" />;
+	// const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
+	// const HTMLIcon = <FaHtml5 className="text-4xl text-html" />;
+	// const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
+	// const NextJsIcon = <SiNextDotJs className="text-3xl text-black" />;
+	// const JavascriptIcon = <SiJavascript className="text-3xl text-javascript" />;
+	// const MongoIcon = <SiMongodb className="text-3xl text-mongo" />;
+	// const UnityIcon = <SiUnity className="text-3xl text-black" />;
+	// const D3Icon = <SiD3DotJs className="text-3xl text-d3" />;
+	// const PhotoshopIcon = <SiAdobephotoshop className="text-3xl text-react" />;
 	const ReactIcon = <FaReact className="text-4xl text-react" />;
 	const NodeIcon = <FaNodeJs className="text-4xl text-node" />;
 	const ReduxIcon = <SiRedux className="text-3xl text-redux" />;
-	const NextJsIcon = <SiNextDotJs className="text-3xl text-black" />;
-	const JavascriptIcon = <SiJavascript className="text-3xl text-javascript" />;
-	const MongoIcon = <SiMongodb className="text-3xl text-mongo" />;
 	const FirebaseIcon = <SiFirebase className="text-3xl text-firebase" />;
-	const UnityIcon = <SiUnity className="text-3xl text-black" />;
-	const D3Icon = <SiD3DotJs className="text-3xl text-d3" />;
-	const PhotoshopIcon = <SiAdobephotoshop className="text-3xl text-react" />;
 	const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
-	const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
 
 	const features = [
 		{
@@ -148,9 +153,17 @@ const Scholars = () => {
 									}
 									icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
 									color="#08415C"
+									logoUrl="https://media-exp1.licdn.com/dms/image/C4E0BAQHPZloeKujdzw/company-logo_200_200/0?e=2159024400&v=beta&t=sPMZhft0EMlXU3cNUvnPpy0Kg46u5033VGQw7ex4nis"
 								/>
 
 								<div className="flex flex-wrap md:flex-no-wrap  justify-between">
+									<Testimonial
+										name="Evan Deere"
+										title="Scholars CTO"
+										email="evan@quikfixjobs.com"
+										statement="Allan was able to quickly jump into the Scholars platform and add high-level features. He has proved to be a reliable developer with a great understanding for React and Redux. His programming skills, matched with his enthusiasm, would make a great addition to any team!"
+										imgSrc="https://pbs.twimg.com/profile_images/1087112295816355841/8r5Nr6CD.jpg"
+									/>
 									<Testimonial
 										name="Jahziel Villasana"
 										title="Scholars Co-Worker"
@@ -159,13 +172,6 @@ const Scholars = () => {
 
                                     Vivamus in erat ut urna cursus vestibulum. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. In consectetuer turpis ut velit."
 										imgSrc="https://avatars1.githubusercontent.com/u/19838370?s=460&u=0f07ef9e87d1e3e89b8b4b9a1579e8243a3381ec&v=4"
-									/>
-									<Testimonial
-										name="Evan Deere"
-										title="Scholars CTO"
-										email="evan@quikfixjobs.com"
-										statement="Allan was able to quickly jump into the Scholars platform and add high-level features. He has proved to be a reliable developer with a great understanding for React and Redux. His programming skills, matched with his enthusiasm, would make a great addition to any team!"
-										imgSrc="https://pbs.twimg.com/profile_images/1087112295816355841/8r5Nr6CD.jpg"
 									/>
 								</div>
 							</div>
@@ -194,7 +200,7 @@ const Scholars = () => {
 							<p>Top Clients</p>
 						</div>
 						<div className=" bg-white w-full min-h-64 p-10 flex flex-wrap md:flex-no-wrap items-center text-charcoal">
-							<div className="flex justify-around md:w-1/2 w-full flex-wrap sm:flex-no-wrap">
+							<div className="flex items-center justify-around md:w-1/2 w-full flex-wrap sm:flex-no-wrap">
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_logo_2016.svg/600px-Dell_logo_2016.svg.png"
 									alt="Dell"
@@ -206,7 +212,7 @@ const Scholars = () => {
 									className="h-10 sm:h-16 w-auto my-4"
 								/>
 							</div>
-							<div className="flex justify-around md:w-1/2 w-full flex-wrap sm:flex-no-wrap">
+							<div className="flex items-center justify-around md:w-1/2 w-full flex-wrap sm:flex-no-wrap">
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Intuit_Logo.svg/1200px-Intuit_Logo.svg.png"
 									alt="Intuit"
