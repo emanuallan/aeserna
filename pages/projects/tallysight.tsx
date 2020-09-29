@@ -49,8 +49,8 @@ const Scholars = () => {
 			title: "Custom Image Generator",
 			tags: "Social Media Content Sharing",
 			info:
-				"Feature for Analysts on the platform that allows them to share picks for inidividual games or events (ex. NFL week 2). The generator creates a nice little graphic for the Analyst which then allows them to download it and share it on social media platforms. This tool features the npm package html-to-image which also needed a proxy to work.",
-			imgSrc: "/gifs/companysearch.gif",
+				"Feature for Analysts on the platform that allows them to share picks for inidividual games or events (ex. NFL week 2). The generator creates a nice graphic for the Analyst based on their preferences which then allows them to download it and share it on social media platforms. This tool features the npm package html-to-image which also needed a proxy to work.",
+			imgSrc: "/gifs/social.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
