@@ -125,7 +125,7 @@ const Scholars = () => {
 									logoUrl="https://pbs.twimg.com/profile_images/1245404820581699585/-7D3w3QX.jpg"
 								/>
 
-								<div className="flex flex-wrap md:flex-no-wrap  justify-between">
+								<div className="flex flex-wrap md:flex-no-wrap  justify-center">
 									<Testimonial
 										name="Masheed Ahadi"
 										title="TallySight CTO"
@@ -135,13 +135,13 @@ const Scholars = () => {
                                     Vivamus in erat ut urna cursus vestibulum. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. In consectetuer turpis ut velit."
 										imgSrc="https://pbs.twimg.com/profile_images/1291167402315587584/Rw4deqFL_400x400.jpg"
 									/>
-									<Testimonial
+									{/* <Testimonial
 										name="Francisco Jimenez"
 										title="Scholars Head of Engineering"
 										email="evan@quikfixjobs.com"
 										statement="Allan was able to quickly jump into the Scholars platform and add high-level features. He has proved to be a reliable developer with a great understanding for React and Redux. His programming skills, matched with his enthusiasm, would make a great addition to any team!"
 										imgSrc="https://ca.slack-edge.com/T3DUW6V2Q-U0177LCNVLH-d46bcf70b5b8-512"
-									/>
+									/> */}
 								</div>
 							</div>
 						</div>

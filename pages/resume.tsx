@@ -134,7 +134,7 @@ const Resume = () => {
 			location: "St. Louis, MO",
 			degree: "New Balance",
 			dates: "Aug. 2019 - Dec. 2019",
-			imgSrc: "https://aeserna.com/img/new-balance.jpg",
+			imgSrc: "https://emanuallan.github.io/img/new-balance.jpg",
 			bullets: [
 				"Developed page banners, product headers, navigator tiles, and marketing emails using HTML, CSS, and JavaScript.",
 				"Optimized product page load times by up to 25% by compressing graphics and minifying CSS.",
@@ -148,7 +148,7 @@ const Resume = () => {
 			location: "Alpharetta, GA",
 			degree: "Dispersive Networks, Inc.",
 			dates: "May. 2019 - Aug. 2019",
-			imgSrc: "https://aeserna.com/img/dispersive-logo.png",
+			imgSrc: "https://emanuallan.github.io/img/dispersive-logo.png",
 			bullets: [
 				"Built a CRUD web application with ReactJS and Redux that manages permissions for certain applications based on positions in a visual workflow tree, streamlining the onboarding process.",
 				"Implemented various tree updating algorithms like insertion, deletion, editing, and drag & drop.",
@@ -165,7 +165,7 @@ const Resume = () => {
 			location: "Atlanta, GA",
 			degree: "Bachelor of Science in Computer Science",
 			dates: "Aug. 2015 - May 2020",
-			imgSrc: "https://aeserna.com/img/gt-2.png",
+			imgSrc: "https://emanuallan.github.io/img/gt-2.png",
 			bullets: [
 				"Graduated with High Honors and as a SanDisk Scholar",
 				"Major GPA: 3.6, Cumulative GPA: 3.4",
@@ -179,7 +179,7 @@ const Resume = () => {
 			location: "Nashville, TN",
 			degree: "High School and Cambridge Research Diploma",
 			dates: "Aug. 2011 - May 2015",
-			imgSrc: "https://aeserna.com/img/hfa.jpg",
+			imgSrc: "https://emanuallan.github.io/img/hfa.jpg",
 			bullets: [
 				"Graduated Top 10% of the class from the #49 Nationally Ranked High School in the United States",
 				"Performed a 2 year Cambridge Research on immigration patterns from Latin America to the United States",
@@ -295,7 +295,7 @@ const Resume = () => {
 						</a>
 					</div>
 					{/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
-						<img className="w-full" src="https://aeserna.com/img/allan.jpg" alt="Sunset in the mountains" />
+						<img className="w-full" src="https://emanuallan.github.io/img/allan.jpg" alt="Sunset in the mountains" />
 						<div className="px-6 py-4 bg-whippy">
 							<div className="font-bold text-xl mb-2">The Coldest Sunset</div>
 							<p className="text-gray-700 text-base ">

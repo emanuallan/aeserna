@@ -157,7 +157,7 @@ const Scholars = () => {
 									logoUrl="https://media-exp1.licdn.com/dms/image/C4E0BAQHPZloeKujdzw/company-logo_200_200/0?e=2159024400&v=beta&t=sPMZhft0EMlXU3cNUvnPpy0Kg46u5033VGQw7ex4nis"
 								/>
 
-								<div className="flex flex-wrap md:flex-no-wrap  justify-between">
+								<div className="flex flex-wrap md:flex-no-wrap  justify-center">
 									<Testimonial
 										name="Evan Deere"
 										title="Scholars CTO"
@@ -165,7 +165,7 @@ const Scholars = () => {
 										statement="Allan was able to quickly jump into the Scholars platform and add high-level features. He has proved to be a reliable developer with a great understanding for React and Redux. His programming skills, matched with his enthusiasm, would make a great addition to any team!"
 										imgSrc="https://pbs.twimg.com/profile_images/1087112295816355841/8r5Nr6CD.jpg"
 									/>
-									<Testimonial
+									{/* <Testimonial
 										name="Jahziel Villasana"
 										title="Scholars Co-Worker"
 										email="jahz@gatech.edu"
@@ -173,7 +173,7 @@ const Scholars = () => {
 
                                     Vivamus in erat ut urna cursus vestibulum. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. In consectetuer turpis ut velit."
 										imgSrc="https://avatars1.githubusercontent.com/u/19838370?s=460&u=0f07ef9e87d1e3e89b8b4b9a1579e8243a3381ec&v=4"
-									/>
+									/> */}
 								</div>
 							</div>
 						</div>

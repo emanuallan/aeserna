@@ -24,7 +24,7 @@ const Menu = () => {
 
 				{/* <img
           className="w-8 h-8 rounded-full"
-          src="https://aeserna.com/apple-touch-icon.png"
+          src="https://emanuallan.github.io/apple-touch-icon.png"
           alt="Avatar of Jonathan Reinink"
         /> */}
 				{/* <span className="cursor-pointer" onClick={() => setDarkMode(!darkMode)}>

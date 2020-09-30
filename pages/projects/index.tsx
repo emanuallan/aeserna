@@ -44,14 +44,14 @@ const Projects = () => {
 			title: "Dispersive Interactive Visual Workflow",
 			info:
 				"A user-facing interactive visual workflow tree for the new version of Dispersive's Service Provider with ReactJS. This workflow tree engages our API and allows users/groups/devices to obtain certain permissions (e.g. for certain applications) based on their positioning within the hierarchy of the tree.",
-			imgSrc: "https://aeserna.com/img/dispersive.jpeg",
+			imgSrc: "https://emanuallan.github.io/img/dispersive.jpeg",
 			icons: [ReactIcon, ReduxIcon, NodeIcon],
 			code: "https://github.com/emanuallan/rc-org-chart",
 			demo: "https://www.youtube.com/watch?v=De4pSY9tKsE&feature=youtu.be&t=56&ab_channel=AllanSerna",
 		},
 		{
 			title: "Yokogawa Production Management Portal",
-			imgSrc: "https://aeserna.com/img/yoko.jpg",
+			imgSrc: "https://emanuallan.github.io/img/yoko.jpg",
 			info:
 				"A dashboard web application created for Quality Assurance Engineers at Yokogawa so that they could actively review the performance of each of their assembly lines.",
 			icons: [ReactIcon, NodeIcon],
@@ -60,7 +60,7 @@ const Projects = () => {
 		},
 		{
 			title: "Purplepundit",
-			imgSrc: "https://aeserna.com/img/purple-pundit.jpg",
+			imgSrc: "https://emanuallan.github.io/img/purple-pundit.jpg",
 			info:
 				"React web application that seperates the latest news articles according to their liberal & conservative bias using the NewsAPI and Media Bias Fact Checker.",
 			icons: [ReactIcon, NodeIcon, PhotoshopIcon],
@@ -71,7 +71,7 @@ const Projects = () => {
 			title: "Dispersive Service-Prov Dashboard",
 			info:
 				"A dashboard created for Dispersive's clientel's devices. Users can add, edit, delete, and search for certain devices within their system.",
-			imgSrc: "https://aeserna.com/img/dispersive.jpeg",
+			imgSrc: "https://emanuallan.github.io/img/dispersive.jpeg",
 			icons: [ReactIcon, ReduxIcon, NodeIcon],
 			code: "https://github.com/emanuallan/service-prov-dash",
 			demo: "https://www.youtube.com/watch?v=De4pSY9tKsE&ab_channel=AllanSerna",
@@ -80,7 +80,7 @@ const Projects = () => {
 			title: "Illuso: A Labyrinth Of Magic Game",
 			info:
 				"This video game was created in the Georgia Tech CS 6457 Video Game Design Class. The game is called Illuso and showcases a magician character trapped in a magical labyrinth who must gather magical playing cards to acquire new abilities and escape!",
-			imgSrc: "https://aeserna.com/img/illuso.jpg",
+			imgSrc: "https://emanuallan.github.io/img/illuso.jpg",
 			icons: [UnityIcon],
 
 			demo: "https://www.youtube.com/watch?v=8T5j5ixqaCk&ab_channel=MattygFTW",
@@ -89,7 +89,7 @@ const Projects = () => {
 			title: "Stock Web Applet",
 			info:
 				"A small web applet that allows users to keep track of stocks and calculate profit gains and losses, as well as, equity percentages. I created this applet with the purpose of practicing with React's hook features (useState, useEffect). Data was fetched from the Finnhub API.",
-			imgSrc: "https://aeserna.com/img/stocko.png",
+			imgSrc: "https://emanuallan.github.io/img/stocko.png",
 			icons: [ReactIcon, ReduxIcon, NodeIcon],
 			code: "https://github.com/emanuallan/stocko",
 			demo: "https://stocko.netlify.app/",
@@ -118,15 +118,15 @@ const Projects = () => {
 			title: "Investing Into Your Education Visual",
 			info:
 				"Data visualization that allows you to interact with data about income and higher education from various U.S. colleges of 2009.",
-			imgSrc: "https://aeserna.com/img/vis.png",
+			imgSrc: "https://emanuallan.github.io/img/vis.png",
 			icons: [D3Icon, JavascriptIcon, HTMLIcon, CSSIcon],
 			code: "https://github.com/emanuallan/Colleges-P5",
-			demo: "https://aeserna.com/vis.html",
+			demo: "https://emanuallan.github.io/vis.html",
 		},
 		{
 			title: "Weather Applet",
 			info: "Mini weather app using the OpenWeather API and Bootstrap. Credit to Hamza Mirza for the tutorial.",
-			imgSrc: "https://aeserna.com/img/weather-app.jpg",
+			imgSrc: "https://emanuallan.github.io/img/weather-app.jpg",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
