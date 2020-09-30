@@ -34,7 +34,7 @@ export default function ContactUs() {
 	return (
 		<div className="flex justify-center bg-charcoal ">
 			<div className={`bg-charcoal min-h-screen h-full max-w-7xl w-full `}>
-				<div className="mx-10 h-screen flex flex-col justify-between">
+				<div className="sm:mx-10 h-screen flex flex-col justify-between">
 					<div>
 						<Menu />
 						<form className="contact-form uppercase tracking-widest text-whippy" onSubmit={sendEmail}>
