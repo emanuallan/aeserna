@@ -33,7 +33,7 @@ export default function ContactUs() {
 
 	return (
 		<div className="flex justify-center bg-charcoal ">
-			<div className={`bg-charcoal h-screen max-w-7xl w-full `}>
+			<div className={`bg-charcoal min-h-screen h-full max-w-7xl w-full `}>
 				<div className="mx-10 h-screen flex flex-col justify-between">
 					<div>
 						<Menu />
