@@ -28,7 +28,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 				<div className="md:flex-shrink-0">
 					<img src={imgSrc} alt="mountains" className="w-full object-cover h-64 rounded-lg rounded-b-none" />
 				</div>
-				<div className="px-4 py-2 mt-2 uppercase mr-4">
+				<div className="px-4 py-2 mt-2 uppercase mr-1">
 					<div className="flex justify-between">
 						<div>
 							<p className="text-sm text-gray-600 flex items-center">
@@ -52,7 +52,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 
 					<p className=" text-gray-700 mt-2 normal-case">{info}</p>
 
-					<div className=" flex justify-between items-center  mb-3 mt-6">
+					<div className=" flex justify-between items-center flex-wrap mb-3 mt-6">
 						<div className="flex items-center">
 							{icons?.map((icon, i) => (
 								<span className="mr-2" key={i}>
