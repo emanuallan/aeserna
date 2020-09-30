@@ -50,7 +50,7 @@ const Scholars = () => {
 			tags: "Anon. Funcs, Search/Sort, Params",
 			info:
 				"Feature for students on the platform that allows them to search through all available companies on the platform to learn more about them, and they are given the option to follow them. By following them, the student can keep up with any webinars the company wants to hold and, in return, companies get to see who follows them, in addition to, who interacts with them the most!",
-			imgSrc: "/gifs/companysearch.gif",
+			imgSrc: "/gifs/company-search.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -60,7 +60,7 @@ const Scholars = () => {
 			tags: "CRUD, Content Generation",
 			info:
 				"Feature for site and business admins which allows them to create, update, and delete articles which can be read by students on the platform. This tool features the react-rte and react-html-parser npm packages.",
-			imgSrc: "/gifs/studentresources.gif",
+			imgSrc: "/gifs/blog.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -70,7 +70,7 @@ const Scholars = () => {
 			tags: "Responsive Design, O*NET API",
 			info:
 				"Feature for students so that they can explore career resources and have access to the start-up owned podcast. Each resource has its own API to which requests are made and information is received from. Each request tends to be dependent on the page breadcrumbs, therefore it is dynamic and loads only what is requested by the user.",
-			imgSrc: "/gifs/studentresources.gif",
+			imgSrc: "/gifs/student-resources.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -80,7 +80,7 @@ const Scholars = () => {
 			tags: "Greenhouse, Harvest API",
 			info:
 				"Feature for business partners that allows them to connect their Greenhouse Account to the platform. This allows them to be able to export candidates from Scholars to Greenhouse via their unique API key.",
-			imgSrc: "/gifs/companysearch.gif",
+			imgSrc: "/gifs/ats-integration.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -90,7 +90,7 @@ const Scholars = () => {
 			tags: "CSV File I/O, Ag-Grid",
 			info:
 				"Feature for business partners that allows them to upload several candidates from CSV and store them onto the platform. This tool features ag-grid-react, an npm package that allows me to show a preview of the csv that is about to be uploaded and can be editted if the user notices a mistake within the information.",
-			imgSrc: "/gifs/companysearch.gif",
+
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -100,7 +100,7 @@ const Scholars = () => {
 			tags: "Notifications",
 			info:
 				"Feature for students which allows them to see public job board positions, to which they can apply and notify the business about their interest in the position.",
-			imgSrc: "/gifs/companysearch.gif",
+			imgSrc: "/gifs/job-board.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -110,7 +110,7 @@ const Scholars = () => {
 			tags: "Data Polishing & Visualization",
 			info:
 				"Feature for business partners which allows them to see an assortment of information about their recruiting efforts (page views, number of applicants, messages, response rates, & more). The tool also features a popular npm package, chart-js, which is used to better see the demographics of applicants of certain positions.",
-			imgSrc: "/gifs/companysearch.gif",
+			imgSrc: "/gifs/stats.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -120,7 +120,7 @@ const Scholars = () => {
 			tags: "Routing for Social Media Sharing",
 			info:
 				"Feature for business partners which allows them to share scheduled webinar events via a custom url. This url can then be shared on Social Media and lead potential candidates to a landing page. Those who are already users and logged in can just press the RSVP button to save the event to the Events tab of their profile. If they're a new user, the user is led to the register page where they can then sign up and join the Scholars platform so they can attend the event.",
-			imgSrc: "/gifs/companysearch.gif",
+			imgSrc: "/gifs/event-landing.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -130,7 +130,7 @@ const Scholars = () => {
 			tags: "Code Maintenance",
 			info:
 				"Wrote documentation on the implementation of the ATS integration for developers at Greenhouse, so that they could approve our design patterns and security measures for integrating their platform onto ours.",
-			imgSrc: "/gifs/companysearch.gif",
+
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -182,7 +182,7 @@ const Scholars = () => {
 							<FaStar className="text-xl mr-2 " />
 							<p>Features</p>
 						</div>
-						<div className="flex flex-wrap justify-center">
+						<div className="grid md:grid-cols-2 grid-cols-1 gap-1">
 							{features?.map((f) => (
 								<FeatureCard
 									key={f.info}

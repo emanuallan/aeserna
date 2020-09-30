@@ -50,7 +50,7 @@ const Scholars = () => {
 			tags: "Social Media Content Sharing",
 			info:
 				"Feature for Analysts on the platform that allows them to share picks for inidividual games or events (ex. NFL week 2). The generator creates a nice graphic for the Analyst based on their preferences which then allows them to download it and share it on social media platforms. This tool features the npm package html-to-image which also needed a proxy to work.",
-			imgSrc: "/gifs/social.gif",
+			imgSrc: "/gifs/graphic-generator.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -60,7 +60,7 @@ const Scholars = () => {
 			tags: "Data Filter, Search, and Sort",
 			info:
 				"Feature for site users that allows them to view game, spread, and over/under predictions from hundreds of analysts. Since games can feature so many analyst insights, I implemented functionalities that assist users to find what they need. Therefore, they can search for a particular analyst, see who picked a certain team, filter analysts to those of a particular organization, and more!",
-			imgSrc: "/gifs/studentresources.gif",
+			imgSrc: "/gifs/other-pros-modal.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -70,7 +70,7 @@ const Scholars = () => {
 			tags: "Custom Components, Valid Input",
 			info:
 				"I had a part in implementing many of the fundamental tools for the Analysts on our platform; the Upcoming Events tab where an analyst can see all the games they're subscribed to (decided by the sports they follow) so they can submit their insight. This meant that I had to check for valid input from Analysts (valid links, valid scores, etc.) before they could submit. In addition, the Past Insights tab, where Analysts can see the records of their submitted insights and share them with a custom graphics generator.",
-			imgSrc: "/gifs/studentresources.gif",
+			imgSrc: "/gifs/analyst-tools.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -80,7 +80,7 @@ const Scholars = () => {
 			tags: "Multi-Upload, Efficiency",
 			info:
 				"Revamped the uploading in the site's admin portal, to reduce upload errors for the content team by implementing an excel-like table (using react handson table) that filters the proceeding column's dropdown options within each row. In other words, each cell has its own dropdown options which is dependent on the option selected in the cell right before it. This required data handling in our Express app which connected to our Mongo db.",
-			imgSrc: "/gifs/companysearch.gif",
+
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -90,7 +90,7 @@ const Scholars = () => {
 			tags: "Dynamic Sorting",
 			info:
 				"Feature for users that allows them to filter through sports or events and allows them to view rankings of those analysts whom gave predictions, to ultimately discover who performed the best. Rankings and percentiles change as you filter by organization so you can see the top performers within each organization.",
-			imgSrc: "/gifs/companysearch.gif",
+			imgSrc: "/gifs/ranking.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -100,7 +100,7 @@ const Scholars = () => {
 			tags: "Next.js Routing, Params, Queries",
 			info:
 				"The Analyst Profile page is perhaps the most exciting features of the platform as users can gather insights from a specific analyst all on one page (many of the components spoken in the 'Analyst Tools' card are featured here). This page allows users to search and filter through the insights, which is reflected in the URL. By sharing this URL, other users who click on it will arrive to an insights page with all the filters applied by the user who shared the link.",
-			imgSrc: "/gifs/companysearch.gif",
+			imgSrc: "/gifs/analyst-profile.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
@@ -150,7 +150,7 @@ const Scholars = () => {
 							<FaStar className="text-xl mr-2 " />
 							<p>Features</p>
 						</div>
-						<div className="flex flex-wrap justify-center">
+						<div className="grid md:grid-cols-2 grid-cols-1 gap-1">
 							{features?.map((f) => (
 								<FeatureCard
 									key={f.info}

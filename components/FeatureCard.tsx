@@ -4,7 +4,7 @@ interface FeatureCardProps {
 	title: string;
 	tags: string;
 	info: string;
-	imgSrc: string;
+	imgSrc?: string;
 	icons: JSX.Element[];
 	code: string;
 	demo: string;
@@ -12,8 +12,8 @@ interface FeatureCardProps {
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ title, tags, info, imgSrc, icons, code, demo }) => {
 	return (
-		<div className="max-w-sm bg-white shadow-xl rounded-lg overflow-hidden my-6 mx-4">
-			<img className="w-full h-auto object-center" src={imgSrc} alt="avatar" />
+		<div className=" bg-white shadow-xl rounded-lg overflow-hidden my-6 mx-4">
+			{imgSrc && <img className="w-full h-auto object-center" src={imgSrc} alt="avatar" />}
 			<div className="flex items-center px-6 py-3 bg-charcoal">
 				<TiLightbulb className="h-6 w-6 text-white fill-current" />
 
