@@ -130,9 +130,11 @@ const Scholars = () => {
 										name="Masheed Ahadi"
 										title="TallySight CTO"
 										email="masheed@tallysight.com"
-										statement="Sed fringilla mauris sit amet nibh. Fusce vulputate eleifend sapien. Donec posuere vulputate arcu. Cras sagittis. In hac habitasse platea dictumst.
+										statement="Allan is a talented and bright engineer that not only was a pleasure to work with everyday but has an amazing level of drive you rarely see in people.
 
-                                    Vivamus in erat ut urna cursus vestibulum. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. In consectetuer turpis ut velit."
+										He was an incredible addition to our engineering team and was able to quickly execute and ship several high-impact features to help scale our product. Allan jumped right in to take on any task and was quickly able to grasp concepts and learn new technologies on the fly.
+										
+										He works extremely hard to become a better and better engineer, and it's been a pleasure to work with him and watch him grow over the past several months. I'm confident that he can tackle any problem thrown his way, and recommend him to any team without reservation. I would love for the opportunity to work with Allan to join my team again."
 										imgSrc="https://pbs.twimg.com/profile_images/1291167402315587584/Rw4deqFL_400x400.jpg"
 									/>
 									{/* <Testimonial
