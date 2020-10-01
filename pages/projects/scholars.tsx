@@ -92,6 +92,7 @@ const Scholars = () => {
 				"Feature for business partners that allows them to upload several candidates from CSV and store them onto the platform. This tool features ag-grid-react, an npm package that allows me to show a preview of the csv that is about to be uploaded and can be editted if the user notices a mistake within the information.",
 
 			icons: [ReactIcon],
+			imgSrc: "/gifs/import-csv.gif",
 			code: "https://github.com/emanuallan/weather-app",
 			demo: "https://www.youtube.com/watch?v=P0vsGO4svUM&feature=youtu.be&t=724&ab_channel=HamzaMirza",
 		},
