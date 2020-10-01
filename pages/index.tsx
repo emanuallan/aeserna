@@ -7,7 +7,7 @@ const IndexPage = () => {
 	return (
 		<div className="flex justify-center bg-charcoal ">
 			<div className={`bg-charcoal  h-full min-h-screen max-w-7xl w-full`}>
-				<div className="sm:mx-10 h-full min-h-screen flex flex-col justify-between">
+				<div className="mx-4 sm:mx-10 h-full min-h-screen flex flex-col justify-between">
 					<div>
 						<Menu />
 

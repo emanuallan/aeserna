@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+//import Link from "next/link";
 
 interface FeaturedProjectCardProps {
 	title: string;
@@ -66,9 +66,9 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 							</h2> */}
 						<div>
 							{handle ? (
-								<Link href={`/projects/${handle}`} as={`/projects/${handle}`}>
-									<a className="text-blue-500 text-sm  ">View My Work</a>
-								</Link>
+								<a className="text-blue-500 text-sm" href={`/projects/${handle}`}>
+									View My Work
+								</a>
 							) : (
 								<a className="text-blue-500 text-sm" href={site} target="_blank">
 									Visit Site

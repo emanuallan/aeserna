@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+//import Link from "next/link";
 import { RiLinkedinLine, RiGithubLine, RiTwitterLine, RiMailLine } from "react-icons/ri";
 
 const Menu = () => {
@@ -17,10 +17,9 @@ const Menu = () => {
 				className={`py-4 menuMin:py-0 w-full md:w-3/4 lg:w-1/2 mx-auto flex flex-wrap justify-around 
         text-whippy  font-thin`}
 			>
-				<Link href="/">
-					<a>HOME</a>
-				</Link>
-				<Link href="/projects">PROJECTS</Link>
+				<a href="/">HOME</a>
+
+				<a href="/projects">PROJECTS</a>
 
 				{/* <img
           className="w-8 h-8 rounded-full"
@@ -31,16 +30,15 @@ const Menu = () => {
 					{darkMode && "🌝"}
 					{!darkMode && "🌚"}
 				</span> */}
-				<Link href="/resume">RESUME</Link>
+				<a href="/resume">RESUME</a>
 				{/* <Link href="/about">
 					<a>BLOG</a>
 				</Link> */}
 				{/* <Link href="/about">
 					<a>ABOUT</a>
 				</Link> */}
-				<Link href="/contact">
-					<a>CONTACT</a>
-				</Link>
+
+				<a href="/contact">CONTACT</a>
 			</div>
 			<div className=" w-full menuMin:w-32 flex justify-center ">
 				<div className="flex flex-wrap justify-between w-32">
