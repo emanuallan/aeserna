@@ -141,7 +141,7 @@ const Resume = () => {
 			bullets: [
 				"Check out aeserna.com/projects/tallysight",
 				"Completely revamped Tallysight's website with React, Next.js, React BootStrap, and TypeScript.",
-				"Developed a custom image generator which allowed sport analysts to share their insights onto major social media platforms, bringing new traffic to the site.",
+				"Developed a custom image generator that allowed sports analysts to share their insights onto major social media platforms, bringing new traffic to the site.",
 				"Implemented react components with the power to search, sort, and filter through large amounts of sports data.",
 				"Developed a multi-upload tool for the content team, significantly improving their efficiency in uploading content onto the Mongo database.",
 				
