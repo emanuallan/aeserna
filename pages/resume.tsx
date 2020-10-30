@@ -104,31 +104,51 @@ const Resume = () => {
 
 	const workArray = [
 		{
-			schoolName: "Full-Stack Software Developer Contractor",
-			location: "remote start-up",
-			degree: "TallySight",
-			dates: "July 2020 - current",
+			schoolName: "Software Development Engineer 2",
+			location: "IRVING, TX",
+			degree: "THE MICHAELS Companies, Inc.",
+			dates: "NOV. 2020 - current",
 			imgSrc:
-				"https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/zbo6ohbkoda2dww7j7io",
+				"https://media.glassdoor.com/sqll/945/michaels-stores-squarelogo-1516299389115.png",
 			bullets: [
-				"Currently working on the front-end of the new UI redesign release, with ReactJS and Next.js",
-				"Revamped the uploading in admin portal, to reduce errors for the content team by implementing a dynamic excel-like table",
+				"Incoming Software Engineer at Michaels", "Tech Stack includes React JS, Python, Hadoop, Spark, and TensorFlow amongst others" 
 			],
-			subColor: "#29AAE1",
+			subColor: "#CF202F",
 		},
 		{
-			schoolName: "JavaScript Developer Contractor",
+			schoolName: "Software Developer Freelancer",
 			location: "remote start-up",
 			degree: "Scholars",
 			dates: "May 2020 - current",
 			imgSrc:
 				"https://media-exp1.licdn.com/dms/image/C4E0BAQHPZloeKujdzw/company-logo_200_200/0?e=2159024400&v=beta&t=sPMZhft0EMlXU3cNUvnPpy0Kg46u5033VGQw7ex4nis",
 			bullets: [
-				"Utilized Firebase with data handling CSV parsers in JavaScript for our student-recruiting software that allows companies to upload, manage, and store talent through action creators in Redux.",
-				"Designed platform podcast page and career guidance resources in ReactJS using Material UI and Tailwind CSS.",
-				"Participated in weekly Scrum estimation meetings to plan projects and coordinate work assignments.",
+				"Check out aeserna.com/projects/scholars",
+				"Significantly expanded the feature set of the Scholars web platform with React, Redux, Tailwind, and Firebase.",
+				"Developed several high-level features on the application like the Blog (w/ full CRUD functionality), the Job Board, and all of the Student Resources and Company Profiles, amongst others.",
+				"Integrated Greenhouse (ATS) onto the platform for companies so that they can connect their Greenhouse account to their Scholars account.",
+				"Implemented imports from CSV and Greenhouse while also polishing the data to create a dashboard for data visualizations.",
 			],
 		},
+
+		{
+			schoolName: "Software Developer Freelancer",
+			location: "remote start-up",
+			degree: "TallySight",
+			dates: "July 2020 - SEPT. 2020",
+			imgSrc:
+				"https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/zbo6ohbkoda2dww7j7io",
+			bullets: [
+				"Check out aeserna.com/projects/tallysight",
+				"Completely revamped Tallysight's website with React, Next.js, React BootStrap, and TypeScript.",
+				"Developed a custom image generator which allowed sport analysts to share their insights onto major social media platforms, bringing new traffic to the site.",
+				"Implemented react components with the power to search, sort, and filter through large amounts of sports data.",
+				"Developed a multi-upload tool for the content team, significantly improving their efficiency in uploading content onto the Mongo database.",
+				
+			],
+			subColor: "#29AAE1",
+		},
+		
 		{
 			schoolName: "Front-End Web Developer Intern",
 			location: "St. Louis, MO",
@@ -169,7 +189,7 @@ const Resume = () => {
 			bullets: [
 				"Graduated with High Honors and as a SanDisk Scholar",
 				"Major GPA: 3.6, Cumulative GPA: 3.4",
-				"Focuse: People & Media (HCI)",
+				"Focus: People & Media (HCI)",
 				"Minor: Sports, Society, and Technology from the GT School of History and Sociology",
 			],
 			subColor: "#B3A26A",

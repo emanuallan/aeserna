@@ -122,7 +122,7 @@ const Scholars = () => {
 									icons={[ReactIcon, NextJsIcon, TypescriptIcon, NodeIcon, CSSIcon, MongoIcon]}
 									color="#29AAE1"
 									site="https://www.tallysight.com/"
-									logoUrl="https://pbs.twimg.com/profile_images/1245404820581699585/-7D3w3QX.jpg"
+									logoUrl="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/zbo6ohbkoda2dww7j7io"
 								/>
 
 								<div className="flex flex-wrap md:flex-no-wrap  justify-center">
