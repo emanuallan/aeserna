@@ -38,7 +38,7 @@ const Menu = () => {
 					<a>ABOUT</a>
 				</Link> */}
 
-				<a href="/contact">CONTACT</a>
+				{/* <a href="/contact">CONTACT</a> */}
 			</div>
 			<div className=" w-full menuMin:w-32 flex justify-center ">
 				<div className="flex flex-wrap justify-between w-32">
