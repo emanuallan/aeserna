@@ -1,14 +1,11 @@
 import React from "react";
-import Menu from "../components/Menu";
 import { GiGraduateCap } from "react-icons/gi";
 import EducationCard from "../components/EducationCard";
 import { MdWork } from "react-icons/md";
 import { ImRocket } from "react-icons/im";
 import SkillCard from "../components/SkillCard";
 import { AiOutlineCloudDownload } from "react-icons/ai";
-import Footer from "../components/Footer";
 
-//border-b-2 border-yikyak
 const Resume = () => {
 	const backendArray = [
 		{

@@ -1,6 +1,4 @@
 import React from "react";
-import Menu from "../../components/Menu";
-import Footer from "../../components/Footer";
 import FeatureCard from "../../components/FeatureCard";
 import {
 	FaReact,

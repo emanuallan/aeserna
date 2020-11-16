@@ -1,6 +1,4 @@
 import React from "react";
-import Menu from "../../components/Menu";
-import Footer from "../../components/Footer";
 import GitHubCalendar from "react-github-calendar";
 
 import ReactTooltip from "react-tooltip";

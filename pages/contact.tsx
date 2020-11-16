@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
-import Menu from "../components/Menu";
 import { SiMinutemailer } from "react-icons/si";
-import Footer from "../components/Footer";
 import { AiOutlineCheck } from "react-icons/ai";
 import { BiError } from "react-icons/bi";
 
