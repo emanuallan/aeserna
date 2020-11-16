@@ -83,7 +83,7 @@ const Resume = () => {
 		},
 		{
 			imgSrc:
-				"https://banner2.cleanpng.com/20180704/qpr/kisspng-cascading-style-sheets-logo-css3-html-web-developm-5b3d40a4d013e0.7927254715307409008523.jpg",
+				"https://blog.artegrafico.net/wp-content/uploads/2019/02/css.png",
 			name: "CSS",
 		},
 		{
@@ -116,7 +116,7 @@ const Resume = () => {
 			subColor: "#CF202F",
 		},
 		{
-			schoolName: "Software Developer Freelancer",
+			schoolName: "Web Application Developer Freelancer",
 			location: "remote start-up",
 			degree: "Scholars",
 			dates: "May 2020 - current",
@@ -132,7 +132,7 @@ const Resume = () => {
 		},
 
 		{
-			schoolName: "Software Developer Freelancer",
+			schoolName: "Web Application Developer Freelancer",
 			location: "remote start-up",
 			degree: "TallySight",
 			dates: "July 2020 - SEPT. 2020",
@@ -210,135 +210,129 @@ const Resume = () => {
 	];
 
 	return (
-		<div className="flex justify-center bg-charcoal ">
-			<div className={`bg-charcoal min-h-screen h-full max-w-7xl w-full `}>
-				<div className="mx-4 sm:mx-10">
-					<Menu />
+		
+		<>
+			<div className="text-whippy uppercase tracking-widest">
+				<div className="flex  justify-center">
+					<a href="/docs/resume.pdf" target="_blank" download>
+						<button className="text-whippy uppercase tracking-widest flex p-4">
+							<AiOutlineCloudDownload className="text-2xl mr-2" />
+							Download Resume
+						</button>
+					</a>
+				</div>
 
-					<div className="text-whippy uppercase tracking-widest">
-						<div className="flex  justify-center">
-							<a href="/docs/resume.pdf" target="_blank" download>
-								<button className="text-whippy uppercase tracking-widest flex p-4">
-									<AiOutlineCloudDownload className="text-2xl mr-2" />
-									Download Resume
-								</button>
-							</a>
-						</div>
+				<div className="flex mb-10">
+					<MdWork className="text-xl mr-2" />
+					<p>Experience</p>
+				</div>
 
-						<div className="flex mb-10">
-							<MdWork className="text-xl mr-2" />
-							<p>Experience</p>
-						</div>
+				{workArray.map((work) => (
+					<EducationCard
+						key={work.degree}
+						schoolName={work.schoolName}
+						location={work.location}
+						degree={work.degree}
+						dates={work.dates}
+						imgSrc={work.imgSrc}
+						bullets={work.bullets}
+						subColor={work.subColor}
+					/>
+				))}
+			</div>
 
-						{workArray.map((work) => (
-							<EducationCard
-								key={work.schoolName}
-								schoolName={work.schoolName}
-								location={work.location}
-								degree={work.degree}
-								dates={work.dates}
-								imgSrc={work.imgSrc}
-								bullets={work.bullets}
-								subColor={work.subColor}
-							/>
+			<div className="text-whippy uppercase tracking-widest">
+				<div className="flex mb-10 ">
+					<GiGraduateCap className="text-2xl mr-2" />
+					<p>Education</p>
+				</div>
+
+				{educationArray.map((edu) => (
+					<EducationCard
+						key={edu.schoolName}
+						schoolName={edu.schoolName}
+						location={edu.location}
+						degree={edu.degree}
+						dates={edu.dates}
+						imgSrc={edu.imgSrc}
+						bullets={edu.bullets}
+						subColor={edu.subColor}
+					/>
+				))}
+			</div>
+
+			<div className="text-whippy uppercase tracking-widest pb-20">
+				<div className="flex mb-10 ">
+					<ImRocket className="text-xl mr-2" />
+					<p>Skills</p>
+				</div>
+				<div className="pb-12">
+					<div className="text-center pb-12">Programming Languages</div>
+
+					<div className="flex justify-around flex-wrap">
+						{programmingLanguagesArray.map((pl) => (
+							<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
 						))}
 					</div>
+				</div>
+				<div className="pb-12">
+					<div className="text-center pb-12">Frameworks & Libraries</div>
 
-					<div className="text-whippy uppercase tracking-widest">
-						<div className="flex mb-10 ">
-							<GiGraduateCap className="text-2xl mr-2" />
-							<p>Education</p>
-						</div>
-
-						{educationArray.map((edu) => (
-							<EducationCard
-								key={edu.schoolName}
-								schoolName={edu.schoolName}
-								location={edu.location}
-								degree={edu.degree}
-								dates={edu.dates}
-								imgSrc={edu.imgSrc}
-								bullets={edu.bullets}
-								subColor={edu.subColor}
-							/>
+					<div className="flex justify-around flex-wrap">
+						{framworksAndLibrariesArray.map((pl) => (
+							<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
 						))}
 					</div>
+				</div>
+				<div className="pb-12">
+					<div className="text-center pb-12">Back-end services</div>
 
-					<div className="text-whippy uppercase tracking-widest pb-20">
-						<div className="flex mb-10 ">
-							<ImRocket className="text-xl mr-2" />
-							<p>Skills</p>
-						</div>
-						<div className="pb-12">
-							<div className="text-center pb-12">Programming Languages</div>
-
-							<div className="flex justify-around flex-wrap">
-								{programmingLanguagesArray.map((pl) => (
-									<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
-								))}
-							</div>
-						</div>
-						<div className="pb-12">
-							<div className="text-center pb-12">Frameworks & Libraries</div>
-
-							<div className="flex justify-around flex-wrap">
-								{framworksAndLibrariesArray.map((pl) => (
-									<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
-								))}
-							</div>
-						</div>
-						<div className="pb-12">
-							<div className="text-center pb-12">Back-end services</div>
-
-							<div className="flex justify-around flex-wrap">
-								{backendArray.map((pl) => (
-									<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
-								))}
-							</div>
-						</div>
-
-						<div className="text-center ">
-							<div className="pb-12">Additional Skills</div>
-
-							<p>
-								Graphic Design, Visual Medias, Video Production, Audio Production,
-								Interpreting/Translating (Spanish/English)
-							</p>
-						</div>
+					<div className="flex justify-around flex-wrap">
+						{backendArray.map((pl) => (
+							<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
+						))}
 					</div>
+				</div>
 
-					<div className="flex  justify-center">
-						<a href="/docs/resume.pdf" target="_blank" download>
-							<button className="text-whippy p-4 ">
-								<AiOutlineCloudDownload className="text-2xl" />
-							</button>
-						</a>
-					</div>
-					{/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
-						<img className="w-full" src="https://emanuallan.github.io/img/allan.jpg" alt="Sunset in the mountains" />
-						<div className="px-6 py-4 bg-whippy">
-							<div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-							<p className="text-gray-700 text-base ">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
-								Maiores et perferendis eaque, exercitationem praesentium.
-							</p>
-						</div>
-						<div className="px-6 pt-4 pb-2">
-							<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-								#photography
-							</span>
-							<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-								#travel
-							</span>
-							<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-								#winter
-							</span>
-						</div>
-					</div> */}
-					<Footer />
+				<div className="text-center ">
+					<div className="pb-12">Additional Skills</div>
+
+					<p>
+						Graphic Design, Visual Medias, Video Production, Audio Production,
+						Interpreting/Translating (Spanish/English)
+					</p>
 				</div>
 			</div>
-		</div>
+
+			<div className="flex  justify-center">
+				<a href="/docs/resume.pdf" target="_blank" download>
+					<button className="text-whippy p-4 ">
+						<AiOutlineCloudDownload className="text-2xl" />
+					</button>
+				</a>
+			</div>
+			{/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
+				<img className="w-full" src="https://emanuallan.github.io/img/allan.jpg" alt="Sunset in the mountains" />
+				<div className="px-6 py-4 bg-whippy">
+					<div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+					<p className="text-gray-700 text-base ">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+						Maiores et perferendis eaque, exercitationem praesentium.
+					</p>
+				</div>
+				<div className="px-6 pt-4 pb-2">
+					<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+						#photography
+					</span>
+					<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+						#travel
+					</span>
+					<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+						#winter
+					</span>
+				</div>
+			</div> */}
+		</>
 	);
 };
 

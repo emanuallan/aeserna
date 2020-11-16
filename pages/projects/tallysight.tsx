@@ -108,10 +108,7 @@ const Scholars = () => {
 	];
 
 	return (
-		<div className="flex justify-center bg-tallysight ">
-			<div className={`bg-tallysight   min-h-screen h-full max-w-7xl w-full`}>
-				<div className="mx-4 sm:mx-10">
-					<Menu />
+
 					<div className="text-whippy flex flex-col items-center">
 						<div className=" w-full  mt-10 ">
 							<div className="w-full">
@@ -198,10 +195,7 @@ const Scholars = () => {
 							</div>
 						</div>
 					</div>
-					<Footer />
-				</div>
-			</div>
-		</div>
+					
 	);
 };
 

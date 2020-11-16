@@ -32,67 +32,62 @@ export default function ContactUs() {
 	}
 
 	return (
-		<div className="flex justify-center bg-charcoal ">
-			<div className={`bg-charcoal min-h-screen h-full max-w-7xl w-full `}>
-				<div className="mx-4 sm:mx-10 h-screen flex flex-col justify-between">
-					<div>
-						<Menu />
-						<form className="contact-form uppercase tracking-widest text-whippy" onSubmit={sendEmail}>
-							<input type="hidden" name="contact_number" />
-							<SiMinutemailer className="text-4xl mx-auto mb-8" />
-							<div className="flex flex-col">
-								<label>Name</label>
-								<input
-									autoFocus
-									required
-									className="bg-charcoal border-2 border-whippy rounded "
-									type="text"
-									name="user_name"
-								/>
-							</div>
-							<div className="flex flex-col my-8">
-								<label>Email</label>
-								<input
-									required
-									className="bg-charcoal border-2 border-whippy rounded "
-									type="email"
-									name="user_email"
-								/>
-							</div>
-							<div className="flex flex-col">
-								<label>Message</label>
-								<textarea
-									required
-									rows={7}
-									className="bg-charcoal border-2 border-whippy rounded "
-									name="message"
-								/>
-
-								{messageSent ? (
-									<span className=" mt-12 text-center text-xl uppercase flex justify-center tracking-widest">
-										<span className="flex">
-											Message has been sent <AiOutlineCheck className="ml-2 mt-2" />
-										</span>{" "}
-									</span>
-								) : (
-									<input
-										className="mt-12 rounded bg-transparent text-3xl uppercase tracking-widest cursor-pointer"
-										type="submit"
-										value="Send"
-									/>
-								)}
-								{showErrorMessage && !messageSent && (
-									<span className=" mt-12 text-center text-xl lowercase flex justify-center tracking-widest">
-										<BiError className=" text-4xl" />
-										{errorMessage}
-									</span>
-								)}
-							</div>
-						</form>
-					</div>
-					<Footer />
+		
+		<>
+			
+			<form className="contact-form uppercase tracking-widest text-whippy" onSubmit={sendEmail}>
+				<input type="hidden" name="contact_number" />
+				<SiMinutemailer className="text-4xl mx-auto mb-8" />
+				<div className="flex flex-col">
+					<label>Name</label>
+					<input
+						autoFocus
+						required
+						className="bg-charcoal border-2 border-whippy rounded "
+						type="text"
+						name="user_name"
+					/>
 				</div>
-			</div>
-		</div>
+				<div className="flex flex-col my-8">
+					<label>Email</label>
+					<input
+						required
+						className="bg-charcoal border-2 border-whippy rounded "
+						type="email"
+						name="user_email"
+					/>
+				</div>
+				<div className="flex flex-col">
+					<label>Message</label>
+					<textarea
+						required
+						rows={7}
+						className="bg-charcoal border-2 border-whippy rounded "
+						name="message"
+					/>
+
+					{messageSent ? (
+						<span className=" mt-12 text-center text-xl uppercase flex justify-center tracking-widest">
+							<span className="flex">
+								Message has been sent <AiOutlineCheck className="ml-2 mt-2" />
+							</span>{" "}
+						</span>
+					) : (
+						<input
+							className="mt-12 rounded bg-transparent text-3xl uppercase tracking-widest cursor-pointer"
+							type="submit"
+							value="Send"
+						/>
+					)}
+					{showErrorMessage && !messageSent && (
+						<span className=" mt-12 text-center text-xl lowercase flex justify-center tracking-widest">
+							<BiError className=" text-4xl" />
+							{errorMessage}
+						</span>
+					)}
+				</div>
+			</form>
+		</>
+					
 	);
 }

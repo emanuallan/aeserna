@@ -134,71 +134,64 @@ const Projects = () => {
 	];
 
 	return (
-		<div className="flex justify-center bg-charcoal ">
-			<div className={`bg-charcoal   min-h-screen h-full max-w-7xl w-full`}>
-				<div className="mx-4 sm:mx-10">
-					<Menu />
-					<div className="text-whippy flex flex-col items-center">
-						<GitHubCalendar
-							username="emanuallan"
-							theme={{
-								background: "transparent",
-								text: "#eeeeee",
-								grade4: "hsl(203, 78%, 30%)",
-								grade3: "hsl(203, 78%, 44%)",
-								grade2: "hsl(203, 78%, 58%)",
-								grade1: "hsl(203, 78%, 72%)",
-								grade0: "#eee",
-							}}
-						>
-							<ReactTooltip delayShow={50} html />
-						</GitHubCalendar>
-						<div className="flex self-start mt-10 uppercase tracking-widest">
-							<FaTrophy className="text-xl mr-2 " />
-							<p>Featured Projects</p>
-						</div>
-						<div className=" w-full grid  grid-cols-1 gap-10 mt-10">
-							<FeaturedProjectCard
-								imgSrc="https://secureservercdn.net/198.71.233.109/phy.b29.myftpupload.com/wp-content/uploads/2020/06/Match-Made.png"
-								title={"Scholars"}
-								info={
-									"Scholars is a business recruiting platform that connects college students with employers for internships and entry-level positions."
-								}
-								icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
-								color="#08415C"
-								logoUrl="https://media-exp1.licdn.com/dms/image/C4E0BAQHPZloeKujdzw/company-logo_200_200/0?e=2159024400&v=beta&t=sPMZhft0EMlXU3cNUvnPpy0Kg46u5033VGQw7ex4nis"
-								handle="scholars"
-							/>
-							<FeaturedProjectCard
-								imgSrc="https://tallysight.com/widget.png"
-								title={"TallySight"}
-								info="Tallysight is a next-generation platform that helps sports writers, analysts, & organizations showcase their insights and grow their brand."
-								icons={[ReactIcon, NextJsIcon, TypescriptIcon, NodeIcon, CSSIcon, MongoIcon]}
-								color="#29AAE1"
-								handle="tallysight"
-								logoUrl="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/zbo6ohbkoda2dww7j7io"
-							/>
-						</div>
-						<div className="flex self-start mt-10 uppercase tracking-widest">
-							<IoIosTime className="text-xl mr-2 " />
-							<p>Previous Projects</p>
-						</div>
-						<div className="grid sm:grid-cols-2 grid-cols-1 gap-10">
-							{projects?.map((p) => (
-								<HorizontalCard
-									key={p.info}
-									info={p.info}
-									imgSrc={p.imgSrc}
-									title={p.title}
-									icons={p.icons}
-									code={p.code}
-									demo={p.demo}
-								/>
-							))}
-						</div>
-					</div>
-					<Footer />
-				</div>
+
+		<div className="text-whippy flex flex-col items-center">
+			<GitHubCalendar
+				username="emanuallan"
+				theme={{
+					background: "transparent",
+					text: "#eeeeee",
+					grade4: "hsl(203, 78%, 30%)",
+					grade3: "hsl(203, 78%, 44%)",
+					grade2: "hsl(203, 78%, 58%)",
+					grade1: "hsl(203, 78%, 72%)",
+					grade0: "#eee",
+				}}
+			>
+				<ReactTooltip delayShow={50} html />
+			</GitHubCalendar>
+			<div className="flex self-start mt-10 uppercase tracking-widest">
+				<FaTrophy className="text-xl mr-2 " />
+				<p>Featured Projects</p>
+			</div>
+			<div className=" w-full grid  grid-cols-1 gap-10 mt-10">
+				<FeaturedProjectCard
+					imgSrc="https://secureservercdn.net/198.71.233.109/phy.b29.myftpupload.com/wp-content/uploads/2020/06/Match-Made.png"
+					title={"Scholars"}
+					info={
+						"Scholars is a business recruiting platform that connects college students with employers for internships and entry-level positions."
+					}
+					icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
+					color="#08415C"
+					logoUrl="https://media-exp1.licdn.com/dms/image/C4E0BAQHPZloeKujdzw/company-logo_200_200/0?e=2159024400&v=beta&t=sPMZhft0EMlXU3cNUvnPpy0Kg46u5033VGQw7ex4nis"
+					handle="scholars"
+				/>
+				<FeaturedProjectCard
+					imgSrc="https://tallysight.com/widget.png"
+					title={"TallySight"}
+					info="Tallysight is a next-generation platform that helps sports writers, analysts, & organizations showcase their insights and grow their brand."
+					icons={[ReactIcon, NextJsIcon, TypescriptIcon, NodeIcon, CSSIcon, MongoIcon]}
+					color="#29AAE1"
+					handle="tallysight"
+					logoUrl="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/zbo6ohbkoda2dww7j7io"
+				/>
+			</div>
+			<div className="flex self-start mt-10 uppercase tracking-widest">
+				<IoIosTime className="text-xl mr-2 " />
+				<p>Previous Projects</p>
+			</div>
+			<div className="grid sm:grid-cols-2 grid-cols-1 gap-10">
+				{projects?.map((p) => (
+					<HorizontalCard
+						key={p.info}
+						info={p.info}
+						imgSrc={p.imgSrc}
+						title={p.title}
+						icons={p.icons}
+						code={p.code}
+						demo={p.demo}
+					/>
+				))}
 			</div>
 		</div>
 	);

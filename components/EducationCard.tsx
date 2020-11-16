@@ -39,9 +39,9 @@ const EducationCard: React.FC<EducationCardProps> = ({
 			</div>
 
 			<div className="mt-10">
-				<ul className="list-disc">
+				<ul className="list-disc pl-10">
 					{bullets?.map((bullet: string) => (
-						<li>{bullet}</li>
+						<li key={bullet}>{bullet}</li>
 					))}
 				</ul>
 			</div>
