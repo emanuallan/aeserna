@@ -1,5 +1,5 @@
 import React from "react";
-//import Link from "next/link";
+import Link from "next/link";
 import { RiLinkedinLine, RiGithubLine, RiTwitterLine, RiMailLine } from "react-icons/ri";
 
 const Menu = () => {
@@ -21,6 +21,10 @@ const Menu = () => {
 
 				<a href="/projects">PROJECTS</a>
 
+				<Link href="/blog">
+					<a>BLOG</a>
+				</Link>
+
 				{/* <img
           className="w-8 h-8 rounded-full"
           src="https://emanuallan.github.io/apple-touch-icon.png"
@@ -31,9 +35,7 @@ const Menu = () => {
 					{!darkMode && "🌚"}
 				</span> */}
 				<a href="/resume">RESUME</a>
-				{/* <Link href="/about">
-					<a>BLOG</a>
-				</Link> */}
+				
 				{/* <Link href="/about">
 					<a>ABOUT</a>
 				</Link> */}

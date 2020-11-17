@@ -26,8 +26,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 			<div className="flex justify-center bg-scholars ">
 				<div className={`bg-scholars  h-full min-h-screen max-w-7xl w-full`}>
 					<div className="mx-4 sm:mx-10 h-full min-h-screen flex flex-col justify-between">
-						<Menu />
-						<Component {...pageProps} />
+						<div>
+							<Menu />
+							<Component {...pageProps} />
+						</div>
 						<Footer />
 					</div>
 				</div>
