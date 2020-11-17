@@ -8,7 +8,7 @@ const Menu = () => {
 			className={`pt-6 
     
 		text-whippy 
-	flex flex-wrap font-semibold tracking-widest uppercase mb-16 menuMin:mb-20 `}
+	flex flex-wrap font-semibold tracking-widest uppercase mb-16 `} //menuMin:mb-20 
 		>
 			<span className=" font-bold text-xl  text-center menuMin:float-left w-full menuMin:w-auto">
 				ALLAN E. SERNA
