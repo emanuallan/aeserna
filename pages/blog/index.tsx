@@ -4,7 +4,7 @@ import * as matter from "gray-matter";
 import fs from "fs";
 import path from "path";
 import Head from "next/head";
-import { RiQuillPenLine } from "react-icons/ri";
+//import { RiQuillPenLine } from "react-icons/ri";
 
 export async function getStaticProps() {
 	const postsDirectory = path.join(process.cwd(), "public/posts");
