@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { formatTitleURLParam } from "../../support";
+// import Link from "next/link";
+// import { formatTitleURLParam } from "../../support";
 // import * as matter from "gray-matter";
 // import fs from "fs";
 // import path from "path";
@@ -53,19 +53,19 @@ export default function Blog({ metadata }: BlogProps) {
 					<ul>
 						{metadata?.map((meta) => (
 							<li key={meta.id}>
-								<Link
+								{/* <Link
 									href="/blog/[postname]"
 									as={`/blog/${formatTitleURLParam(meta.title)}`} // Use FormattedURL instead of this function
-								>
-									<div role="button" className="flex justify-between flex-wrap border-b border-t p-4">
-										<div>
-											<p className="text-react text-lg">{meta.title}</p>
+								> */}
+								<div role="button" className="flex justify-between flex-wrap border-b border-t p-4">
+									<div>
+										<p className="text-react text-lg">{meta.title}</p>
 
-											<p className="text-sm opacity-75">{meta.subtitle}</p>
-										</div>
-										<p>{meta.date}</p>
+										<p className="text-sm opacity-75">{meta.subtitle}</p>
 									</div>
-								</Link>
+									<p>{meta.date}</p>
+								</div>
+								{/* </Link> */}
 							</li>
 						))}
 					</ul>
