@@ -1,4 +1,4 @@
-import * as matter from "gray-matter";
+//import * as matter from "gray-matter";
 import path from "path";
 import fs from "fs";
 import Head from "next/head";
@@ -19,22 +19,22 @@ export async function getStaticPaths() {
 	};
 }
 
-interface staticProps {
-	params: {
-		postname: string;
-	};
-}
-export async function getStaticProps({ params: { postname } }: staticProps) {
-	const TextUnformatted = fs.readFileSync(path.join(process.cwd(), `public/posts/${postname}.md`)).toString();
+// interface staticProps {
+// 	params: {
+// 		postname: string;
+// 	};
+// }
+// export async function getStaticProps({ params: { postname } }: staticProps) {
+// 	const TextUnformatted = fs.readFileSync(path.join(process.cwd(), `public/posts/${postname}.md`)).toString();
 
-	const textMetaData = matter(TextUnformatted);
-	return {
-		props: {
-			content: textMetaData.content,
-			data: textMetaData.data,
-		},
-	};
-}
+// 	const textMetaData = matter(TextUnformatted);
+// 	return {
+// 		props: {
+// 			content: textMetaData.content,
+// 			data: textMetaData.data,
+// 		},
+// 	};
+// }
 
 interface PostProps {
 	content: string;
