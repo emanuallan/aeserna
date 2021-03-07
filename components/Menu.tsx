@@ -8,7 +8,7 @@ const Menu = () => {
 			className={`pt-6 
     
 		text-whippy 
-	flex flex-wrap font-semibold tracking-widest uppercase mb-16 `} //menuMin:mb-20 
+	flex flex-wrap font-semibold tracking-widest uppercase mb-16 `} //menuMin:mb-20
 		>
 			<span className=" font-bold text-xl  text-center menuMin:float-left w-full menuMin:w-auto">
 				ALLAN E. SERNA
@@ -21,9 +21,9 @@ const Menu = () => {
 
 				<a href="/projects">PROJECTS</a>
 
-				<Link href="/blog">
+				{/* <Link href="/blog">
 					<a>BLOG</a>
-				</Link>
+				</Link> */}
 
 				{/* <img
           className="w-8 h-8 rounded-full"
@@ -35,7 +35,7 @@ const Menu = () => {
 					{!darkMode && "🌚"}
 				</span> */}
 				<a href="/resume">RESUME</a>
-				
+
 				{/* <Link href="/about">
 					<a>ABOUT</a>
 				</Link> */}
@@ -53,7 +53,7 @@ const Menu = () => {
 					<a href="https://twitter.com/allaneserna" target="_blank">
 						<RiTwitterLine className={`w-6 h-6 text-whippy`} />
 					</a>
-					<a href="mailto:allanserna@gatech.edu" target="_blank">
+					<a href="mailto:emanuallan@gmail.com" target="_blank">
 						<RiMailLine className={`w-6 h-6 text-whippy`} />
 					</a>
 				</div>

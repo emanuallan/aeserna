@@ -132,9 +132,8 @@ const Projects = () => {
 	];
 
 	return (
-
 		<div className="text-whippy flex flex-col items-center">
-			<GitHubCalendar
+			{/* <GitHubCalendar
 				username="emanuallan"
 				theme={{
 					background: "transparent",
@@ -147,7 +146,7 @@ const Projects = () => {
 				}}
 			>
 				<ReactTooltip delayShow={50} html />
-			</GitHubCalendar>
+			</GitHubCalendar> */}
 			<div className="flex self-start mt-10 uppercase tracking-widest">
 				<FaTrophy className="text-xl mr-2 " />
 				<p>Featured Projects</p>
