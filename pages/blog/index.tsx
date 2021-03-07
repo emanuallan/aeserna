@@ -1,32 +1,32 @@
 import Link from "next/link";
 import { formatTitleURLParam } from "../../support";
-import * as matter from "gray-matter";
-import fs from "fs";
-import path from "path";
+// import * as matter from "gray-matter";
+// import fs from "fs";
+// import path from "path";
 import Head from "next/head";
 //import { RiQuillPenLine } from "react-icons/ri";
 
-export async function getStaticProps() {
-	const postsDirectory = path.join(process.cwd(), "public/posts");
-	const postsFileNames = fs.readdirSync(postsDirectory);
+// export async function getStaticProps() {
+// 	const postsDirectory = path.join(process.cwd(), "public/posts");
+// 	const postsFileNames = fs.readdirSync(postsDirectory);
 
-	const formattedDirectoryNames = postsFileNames.map((postname) => postname.replace(".md", ""));
+// 	const formattedDirectoryNames = postsFileNames.map((postname) => postname.replace(".md", ""));
 
-	const metadata = postsFileNames
-		.map((file) => {
-			const metaPath = path.join(process.cwd(), `public/posts/${file}`);
-			const meta = matter(fs.readFileSync(metaPath, "utf-8")).data;
-			return meta;
-		})
-		.sort((a, b) => b.date - a.date);
+// 	const metadata = postsFileNames
+// 		.map((file) => {
+// 			const metaPath = path.join(process.cwd(), `public/posts/${file}`);
+// 			const meta = matter(fs.readFileSync(metaPath, "utf-8")).data;
+// 			return meta;
+// 		})
+// 		.sort((a, b) => b.date - a.date);
 
-	return {
-		props: {
-			metadata,
-			formattedDirectoryNames,
-		},
-	};
-}
+// 	return {
+// 		props: {
+// 			metadata,
+// 			formattedDirectoryNames,
+// 		},
+// 	};
+// }
 
 interface BlogProps {
 	metadata: {
