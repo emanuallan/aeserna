@@ -24,11 +24,7 @@ const IndexPage = () => {
 				/>
 			</a>
 			<a href="/projects">
-				<img
-					src="/gifs/dispersivetree.gif"
-					className="rounded  mx-auto"
-					alt="Dispersive Interactive Tree"
-				/>
+				<img src="/gifs/dispersivetree.gif" className="rounded  mx-auto" alt="Dispersive Interactive Tree" />
 			</a>
 		</div>
 	);

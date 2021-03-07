@@ -1,7 +1,7 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
+// import GitHubCalendar from "react-github-calendar";
 
-import ReactTooltip from "react-tooltip";
+// import ReactTooltip from "react-tooltip";
 import HorizontalCard from "../../components/HorizontalCard";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaTrophy } from "react-icons/fa";
 import {
@@ -132,9 +132,8 @@ const Projects = () => {
 	];
 
 	return (
-
 		<div className="text-whippy flex flex-col items-center">
-			<GitHubCalendar
+			{/* <GitHubCalendar
 				username="emanuallan"
 				theme={{
 					background: "transparent",
@@ -147,7 +146,7 @@ const Projects = () => {
 				}}
 			>
 				<ReactTooltip delayShow={50} html />
-			</GitHubCalendar>
+			</GitHubCalendar> */}
 			<div className="flex self-start mt-10 uppercase tracking-widest">
 				<FaTrophy className="text-xl mr-2 " />
 				<p>Featured Projects</p>

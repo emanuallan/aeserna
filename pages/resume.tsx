@@ -49,6 +49,10 @@ const Resume = () => {
 			name: "TailwindCSS",
 		},
 		{
+			imgSrc: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+			name: "Chakra UI",
+		},
+		{
 			imgSrc: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
 			name: "Next. JS",
 		},
@@ -79,8 +83,7 @@ const Resume = () => {
 			name: "HTML",
 		},
 		{
-			imgSrc:
-				"https://blog.artegrafico.net/wp-content/uploads/2019/02/css.png",
+			imgSrc: "https://blog.artegrafico.net/wp-content/uploads/2019/02/css.png",
 			name: "CSS",
 		},
 		{
@@ -105,10 +108,11 @@ const Resume = () => {
 			location: "IRVING, TX",
 			degree: "THE MICHAELS Companies, Inc.",
 			dates: "NOV. 2020 - current",
-			imgSrc:
-				"https://media.glassdoor.com/sqll/945/michaels-stores-squarelogo-1516299389115.png",
+			imgSrc: "https://media.glassdoor.com/sqll/945/michaels-stores-squarelogo-1516299389115.png",
 			bullets: [
-				"Incoming Software Engineer at Michaels", "Tech Stack includes React JS, Python, Hadoop, Spark, and TensorFlow amongst others" 
+				"Lead FE Developer for Michaels product dispute flow and customer care portal in ReactJS & Redux",
+				"Diagrammed user flows, planned data structures, and held weekly demo meetings with the company CIO",
+				"Formed documentation for requirements, coding practices, and code reviews",
 			],
 			subColor: "#CF202F",
 		},
@@ -141,11 +145,10 @@ const Resume = () => {
 				"Developed a custom image generator that allowed sports analysts to share their insights onto major social media platforms, bringing new traffic to the site.",
 				"Implemented react components with the power to search, sort, and filter through large amounts of sports data.",
 				"Developed a multi-upload tool for the content team, significantly improving their efficiency in uploading content onto the Mongo database.",
-				
 			],
 			subColor: "#29AAE1",
 		},
-		
+
 		{
 			schoolName: "Front-End Web Developer Intern",
 			location: "St. Louis, MO",
@@ -207,7 +210,6 @@ const Resume = () => {
 	];
 
 	return (
-		
 		<>
 			<div className="text-whippy uppercase tracking-widest">
 				<div className="flex  justify-center">
@@ -295,8 +297,8 @@ const Resume = () => {
 					<div className="pb-12">Additional Skills</div>
 
 					<p>
-						Graphic Design, Visual Medias, Video Production, Audio Production,
-						Interpreting/Translating (Spanish/English)
+						Graphic Design, Visual Medias, Video Production, Audio Production, Interpreting/Translating
+						(Spanish/English)
 					</p>
 				</div>
 			</div>
