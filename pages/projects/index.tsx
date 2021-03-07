@@ -1,7 +1,7 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
+// import GitHubCalendar from "react-github-calendar";
 
-import ReactTooltip from "react-tooltip";
+// import ReactTooltip from "react-tooltip";
 import HorizontalCard from "../../components/HorizontalCard";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaTrophy } from "react-icons/fa";
 import {
