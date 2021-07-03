@@ -19,7 +19,7 @@ const Menu = () => {
 			>
 				<a href="/">HOME</a>
 
-				<a href="/projects">PROJECTS</a>
+				{/* <a href="/projects">PROJECTS</a> */}
 
 				{/* <Link href="/blog">
 					<a>BLOG</a>
@@ -34,7 +34,7 @@ const Menu = () => {
 					{darkMode && "🌝"}
 					{!darkMode && "🌚"}
 				</span> */}
-				<a href="/resume">RESUME</a>
+				{/* <a href="/resume">RESUME</a> */}
 
 				{/* <Link href="/about">
 					<a>ABOUT</a>
