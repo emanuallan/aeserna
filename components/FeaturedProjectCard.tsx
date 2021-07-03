@@ -66,11 +66,11 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 							</h2> */}
 						<div>
 							{handle ? (
-								<a className="text-blue-500 text-sm" href={`/projects/${handle}`}>
+								<a className="text-blue-500 font-bold" href={`/projects/${handle}`}>
 									View My Work
 								</a>
 							) : (
-								<a className="text-blue-500 text-sm" href={site} target="_blank">
+								<a className="text-blue-500 font-bold" href={site} target="_blank">
 									Visit Site
 								</a>
 							)}
