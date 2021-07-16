@@ -140,7 +140,7 @@ const Scholars = () => {
 						icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
 						color="#650CF5"
 						logoUrl="https://media-exp3.licdn.com/dms/image/C560BAQFbtq3AzGMZ1A/company-logo_200_200/0/1623686602797?e=1633564800&v=beta&t=kGGBXitCVoFOrmkTlAV8IHG2aDEV1x2SUj2A2a06jJI"
-						handle="scholars"
+						site="https://hirescholars.com/"
 					/>
 
 					<div className="flex flex-wrap md:flex-no-wrap  justify-center">
