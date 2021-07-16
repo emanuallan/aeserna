@@ -239,7 +239,7 @@ const Resume = () => {
 	return (
 		<>
 			<div className="text-whippy uppercase tracking-widest">
-				<div className="flex  justify-end">
+				<div className="flex  justify-center my-10">
 					<a href="/docs/resume.pdf" target="_blank" download>
 						<button className="text-whippy uppercase tracking-widest flex p-4">
 							<AiOutlineCloudDownload className="text-2xl mr-2" />
