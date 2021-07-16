@@ -121,7 +121,7 @@ const Resume = () => {
 			degree: "Cisco",
 			dates: "JUNE 2021 - current",
 			imgSrc: "https://static.chief.io/media/companies/cisco.png",
-			bullets: ["Working on the Open-Source JavaScript SDK for Cisco Webex Web Platform"],
+			bullets: ["Working on the Open-Source JavaScript SDK for Cisco's Webex web application platform"],
 			subColor: "#00BDEC",
 		},
 		{
