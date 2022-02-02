@@ -57,7 +57,7 @@ const Resume = () => {
 			name: "NodeJS",
 		},
 		{
-			imgSrc: "https://www.markusantonwolf.com/media/pages/blog/tailwind-css/265298487-1593769247/tailwind-css-logo.svg",
+			imgSrc: "https://www.drupal.org/files/styles/grid-3-2x/public/project-images/screenshot_361.png?itok=w4CzcWyb",
 			name: "TailwindCSS",
 		},
 		{
@@ -138,7 +138,7 @@ const Resume = () => {
 			location: "remote start-up",
 			degree: "Scholars",
 			dates: "May 2020 - current",
-			imgSrc: "https://media-exp3.licdn.com/dms/image/C560BAQFbtq3AzGMZ1A/company-logo_200_200/0/1623686602797?e=1633564800&v=beta&t=kGGBXitCVoFOrmkTlAV8IHG2aDEV1x2SUj2A2a06jJI",
+			imgSrc: "https://media-exp1.licdn.com/dms/image/C4D0BAQFgS8Un77gFiQ/company-logo_200_200/0/1642960775349?e=1651708800&v=beta&t=8JMGYlmbZrIQkhVDb-Zlc2FBEOk2ntYy6rL35Q-IMe8",
 			bullets: [
 				"Significantly expanded the feature set of the Scholars web platform with React, Redux, Tailwind, and Firebase.",
 				"Developed several high-level features on the application like the Blog (w/ full CRUD functionality), the Job Board, and all of the Student Resources and Company Profiles, amongst others.",
@@ -273,7 +273,7 @@ const Resume = () => {
 										}
 										icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
 										color="#650CF5"
-										logoUrl="https://media-exp3.licdn.com/dms/image/C560BAQFbtq3AzGMZ1A/company-logo_200_200/0/1623686602797?e=1633564800&v=beta&t=kGGBXitCVoFOrmkTlAV8IHG2aDEV1x2SUj2A2a06jJI"
+										logoUrl="https://media-exp1.licdn.com/dms/image/C4D0BAQFgS8Un77gFiQ/company-logo_200_200/0/1642960775349?e=1651708800&v=beta&t=8JMGYlmbZrIQkhVDb-Zlc2FBEOk2ntYy6rL35Q-IMe8"
 										handle="scholars"
 									/>
 								</div>

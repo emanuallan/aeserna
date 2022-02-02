@@ -38,7 +38,7 @@ const Resume = () => {
 			name: "AWS LAMBDA",
 		},
 		{
-			imgSrc: "https://symbols-electrical.getvecta.com/stencil_261/6_aws-dynamodb.7c3cd3983c.png",
+			imgSrc: "https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png",
 			name: "AWS DYNAMODB",
 		},
 		{
@@ -61,7 +61,7 @@ const Resume = () => {
 			name: "NodeJS",
 		},
 		{
-			imgSrc: "https://www.markusantonwolf.com/media/pages/blog/tailwind-css/265298487-1593769247/tailwind-css-logo.svg",
+			imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png",
 			name: "TailwindCSS",
 		},
 		{
@@ -117,17 +117,46 @@ const Resume = () => {
 	const workArray = [
 		{
 			schoolName: "Software Engineer",
+			location: "ATLANTA, GA",
+			degree: "GigLabs",
+			dates: "November 2021 - current",
+			imgSrc: "https://pbs.twimg.com/profile_images/1417896685242552328/c5U-wkIm_400x400.jpg",
+			bullets: [
+				<div>
+					Supporting our{" "}
+					<a href="https://www.giglabs.io/nftbridge" target="_blank" style={{ textDecoration: "underline" }}>
+						NFT Bridge Platform
+					</a>{" "}
+					which includes the consumer marketplace and the dashboard for minting NFTs and creating NFT packs
+				</div>,
+			],
+			subColor: "#34FFCC",
+		},
+		{
+			schoolName: "Software Engineer",
 			location: "SAN JOSE, CA",
 			degree: "Cisco",
-			dates: "JUNE 2021 - current",
+			dates: "JUNE 2021 - Nov. 2021",
 			imgSrc: "https://static.chief.io/media/companies/cisco.png",
-			bullets: ["Working on the Open-Source JavaScript SDK for Cisco's Webex web application platform"],
+			bullets: [
+				<div>
+					Supported the{" "}
+					<a
+						href="https://github.com/webex/webex-js-sdk"
+						target="_blank"
+						style={{ textDecoration: "underline" }}
+					>
+						Open-Source JavaScript SDK
+					</a>{" "}
+					for Cisco Webex's web application platform
+				</div>,
+			],
 			subColor: "#00BDEC",
 		},
 		{
 			schoolName: "Software Development Engineer II",
 			location: "IRVING, TX",
-			degree: "THE MICHAELS Companies, Inc.",
+			degree: "MICHAELS",
 			dates: "NOV. 2020 - jUNE 2021",
 			imgSrc: "https://media.glassdoor.com/sqll/945/michaels-stores-squarelogo-1516299389115.png",
 			bullets: [
@@ -141,8 +170,8 @@ const Resume = () => {
 			schoolName: "Web Application Developer Freelancer",
 			location: "remote start-up",
 			degree: "Scholars",
-			dates: "May 2020 - current",
-			imgSrc: "https://media-exp3.licdn.com/dms/image/C560BAQFbtq3AzGMZ1A/company-logo_200_200/0/1623686602797?e=1633564800&v=beta&t=kGGBXitCVoFOrmkTlAV8IHG2aDEV1x2SUj2A2a06jJI",
+			dates: "May 2020 - Nov. 2020",
+			imgSrc: "https://media-exp1.licdn.com/dms/image/C4D0BAQFgS8Un77gFiQ/company-logo_200_200/0/1642960775349?e=1651708800&v=beta&t=8JMGYlmbZrIQkhVDb-Zlc2FBEOk2ntYy6rL35Q-IMe8",
 			bullets: [
 				"Significantly expanded the feature set of the Scholars web platform with React, Redux, Tailwind, and Firebase.",
 				"Developed several high-level features on the application like the Blog (w/ full CRUD functionality), the Job Board, and all of the Student Resources and Company Profiles, amongst others.",
@@ -184,7 +213,7 @@ const Resume = () => {
 		{
 			schoolName: "Software Developer Intern",
 			location: "Alpharetta, GA",
-			degree: "Dispersive Networks, Inc.",
+			degree: "Dispersive Networks",
 			dates: "May. 2019 - Aug. 2019",
 			imgSrc: "https://emanuallan.github.io/img/dispersive-logo.png",
 			bullets: [
@@ -204,7 +233,11 @@ const Resume = () => {
 			degree: "Online Master's in Computer Science",
 			dates: "Aug. 2021 - CURRENT",
 			imgSrc: "https://emanuallan.github.io/img/gt-2.png",
-			bullets: ["Specializing in COmputer Systems and Networks"],
+			bullets: [
+				"Specializing in Computer Systems and Networks",
+				"PROGRAM GPA: 4.0",
+				"Courses taken so far: Computer Networks, Network Security",
+			],
 			subColor: "#B3A26A",
 		},
 		{
@@ -239,13 +272,23 @@ const Resume = () => {
 	return (
 		<>
 			<div className="text-whippy uppercase tracking-widest">
-				<div className="flex  justify-center my-10">
-					<a href="/docs/resume.pdf" target="_blank" download>
-						<button className="text-whippy uppercase tracking-widest flex p-4">
-							<AiOutlineCloudDownload className="text-2xl mr-2" />
-							Download Resume
-						</button>
-					</a>
+				<div className="h-screen md:h-auto">
+					<div className="flex justify-center items-center">
+						<img
+							src="https://media-exp1.licdn.com/dms/image/C4E03AQHV3WvYWh5GhA/profile-displayphoto-shrink_800_800/0/1643092572128?e=1649289600&v=beta&t=WJaY0OWaQBKFTh7WN2Dq1WLr3oOnWLBeded_MWI0Xjo"
+							height="350px"
+							width="350px"
+							style={{ borderRadius: 1000, border: "15px solid white" }}
+						/>
+					</div>
+					<div className="flex  justify-center my-10">
+						<a href="/docs/resume.pdf" target="_blank" download>
+							<button className="text-whippy uppercase tracking-widest flex p-4">
+								<AiOutlineCloudDownload className="text-2xl mr-2" />
+								Download Resume
+							</button>
+						</a>
+					</div>
 				</div>
 
 				<div className="flex mb-10">
@@ -277,7 +320,7 @@ const Resume = () => {
 										}
 										icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
 										color="#650CF5"
-										logoUrl="https://media-exp3.licdn.com/dms/image/C560BAQFbtq3AzGMZ1A/company-logo_200_200/0/1623686602797?e=1633564800&v=beta&t=kGGBXitCVoFOrmkTlAV8IHG2aDEV1x2SUj2A2a06jJI"
+										logoUrl="https://media-exp1.licdn.com/dms/image/C4D0BAQFgS8Un77gFiQ/company-logo_200_200/0/1642960775349?e=1651708800&v=beta&t=8JMGYlmbZrIQkhVDb-Zlc2FBEOk2ntYy6rL35Q-IMe8"
 										handle="scholars"
 									/>
 								</div>

@@ -6,7 +6,7 @@ interface EducationCardProps {
 	degree: string;
 	dates: string;
 	imgSrc: string;
-	bullets: string[];
+	bullets: any[];
 	subColor?: string;
 }
 

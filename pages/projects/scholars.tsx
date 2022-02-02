@@ -139,7 +139,7 @@ const Scholars = () => {
 						}
 						icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
 						color="#650CF5"
-						logoUrl="https://media-exp3.licdn.com/dms/image/C560BAQFbtq3AzGMZ1A/company-logo_200_200/0/1623686602797?e=1633564800&v=beta&t=kGGBXitCVoFOrmkTlAV8IHG2aDEV1x2SUj2A2a06jJI"
+						logoUrl="https://media-exp1.licdn.com/dms/image/C4D0BAQFgS8Un77gFiQ/company-logo_200_200/0/1642960775349?e=1651708800&v=beta&t=8JMGYlmbZrIQkhVDb-Zlc2FBEOk2ntYy6rL35Q-IMe8"
 						site="https://hirescholars.com/"
 					/>
 
