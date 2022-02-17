@@ -133,11 +133,11 @@ const Resume = () => {
 			subColor: "#34FFCC",
 		},
 		{
-			schoolName: "Software Engineer",
+			schoolName: "Software Engineer G6",
 			location: "SAN JOSE, CA",
 			degree: "Cisco",
 			dates: "JUNE 2021 - Nov. 2021",
-			imgSrc: "https://static.chief.io/media/companies/cisco.png",
+			imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Hz8USw_vwprOtrw4-QUhsrNquji_QMbF-nwmJ-7CzYI9Nrn2knvdoaZgjkI8AD7fH2I&usqp=CAU",
 			bullets: [
 				<div>
 					Supported the{" "}
