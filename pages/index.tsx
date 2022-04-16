@@ -274,12 +274,14 @@ const Resume = () => {
 			<div className="text-whippy uppercase tracking-widest">
 				<div className="h-screen md:h-auto">
 					<div className="flex justify-center items-center">
-						<img
-							src="https://media-exp1.licdn.com/dms/image/C4E03AQHV3WvYWh5GhA/profile-displayphoto-shrink_800_800/0/1643092572128?e=1649289600&v=beta&t=WJaY0OWaQBKFTh7WN2Dq1WLr3oOnWLBeded_MWI0Xjo"
-							height="350px"
-							width="350px"
-							style={{ borderRadius: 1000, border: "15px solid white" }}
-						/>
+						<a href="https://opensea.io/aeserna" target="_blank">
+							<img
+								src="/imgs/allan-nft.png"
+								height="350px"
+								width="350px"
+								style={{ borderRadius: 1000, border: "15px solid white" }}
+							/>
+						</a>
 					</div>
 					<div className="flex  justify-center my-10">
 						<a href="/docs/resume.pdf" target="_blank" download>
