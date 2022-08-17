@@ -108,7 +108,7 @@ const Resume = () => {
 			imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
 			name: "PYTHON",
 		},
-		{
+		{x
 			imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
 			name: "TypeScript",
 		},
@@ -120,14 +120,14 @@ const Resume = () => {
 			location: "ATLANTA, GA",
 			degree: "GigLabs",
 			dates: "November 2021 - current",
-			imgSrc: "https://pbs.twimg.com/profile_images/1417896685242552328/c5U-wkIm_400x400.jpg",
+			imgSrc: "https://media-exp1.licdn.com/dms/image/C560BAQH9OoLPe6o9Mw/company-logo_200_200/0/1658379636694?e=1668643200&v=beta&t=uUxJDVlTrAfgzCr0oH0XmEjtb-sQFLBTgSwzcYWfYg8",
 			bullets: [
 				<div>
-					Supporting our{" "}
-					<a href="https://www.giglabs.io/nftbridge" target="_blank" style={{ textDecoration: "underline" }}>
-						NFT Bridge Platform
+					Leading feature development of our{" "}
+					<a href="https://www.gigantik.io/" target="_blank" style={{ textDecoration: "underline" }}>
+						GIGANTIK Platform
 					</a>{" "}
-					which includes the consumer marketplace and the dashboard for minting NFTs and creating NFT packs
+					which includes the consumer marketplace and CMS dashboard
 				</div>,
 			],
 			subColor: "#34FFCC",
