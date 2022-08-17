@@ -108,7 +108,7 @@ const Resume = () => {
 			imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
 			name: "PYTHON",
 		},
-		{x
+		{
 			imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
 			name: "TypeScript",
 		},
