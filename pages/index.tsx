@@ -230,13 +230,13 @@ const Resume = () => {
 		{
 			schoolName: "Georgia Institute of Technology",
 			location: "Atlanta, GA",
-			degree: "Online Master's in Computer Science",
+			degree: "Master of Science in Computer Science (OMSCS)",
 			dates: "Aug. 2021 - CURRENT",
 			imgSrc: "https://emanuallan.github.io/img/gt-2.png",
 			bullets: [
 				"Specializing in Computer Systems and Networks",
-				"PROGRAM GPA: 4.0",
-				"Courses taken so far: Computer Networks, Network Security",
+				"PROGRAM GPA: 3.7",
+				"Courses taken so far: Computer Networks, Network Security, DB System Concepts & Design",
 			],
 			subColor: "#B3A26A",
 		},
