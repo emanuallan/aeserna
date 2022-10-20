@@ -141,7 +141,7 @@ const Projects = () => {
 			</div>
 			<div className=" w-full grid  grid-cols-1 gap-10 mt-10">
 				<FeaturedProjectCard
-					imgSrc="https://media-exp1.licdn.com/dms/image/C560BAQFHW-IqiWlxtA/company-logo_200_200/0/1654722667861?e=1674086400&v=beta&t=Vba7bsz4ecbmVQfW-f0O-m6MyHm0V1BeqeP1tQ1ETTY"
+					imgSrc="https://secureservercdn.net/198.71.233.109/phy.b29.myftpupload.com/wp-content/uploads/2020/06/Match-Made.png"
 					title={"Scholars"}
 					info={
 						"Scholars is a business recruiting platform that connects college students with employers for internships and entry-level positions."

@@ -171,7 +171,7 @@ const Resume = () => {
 			location: "remote start-up",
 			degree: "Scholars",
 			dates: "May 2020 - Nov. 2020",
-			imgSrc: "https://media-exp1.licdn.com/dms/image/C4D0BAQFgS8Un77gFiQ/company-logo_200_200/0/1642960775349?e=1660780800&v=beta&t=3Zy6gQ0rnDFRV3DYNx0iEPyN65t4Mwi_NEhgOhb19Z0",
+			imgSrc: "https://media-exp1.licdn.com/dms/image/C560BAQFHW-IqiWlxtA/company-logo_200_200/0/1654722667861?e=1674086400&v=beta&t=Vba7bsz4ecbmVQfW-f0O-m6MyHm0V1BeqeP1tQ1ETTY",
 			bullets: [
 				"Significantly expanded the feature set of the Scholars web platform with React, Redux, Tailwind, and Firebase.",
 				"Developed several high-level features on the application like the Blog (w/ full CRUD functionality), the Job Board, and all of the Student Resources and Company Profiles, amongst others.",
@@ -315,14 +315,14 @@ const Resume = () => {
 							  "Scholars" ? (
 								<div className="mb-20">
 									<FeaturedProjectCard
-										imgSrc="https://media-exp1.licdn.com/dms/image/C560BAQFHW-IqiWlxtA/company-logo_200_200/0/1654722667861?e=1674086400&v=beta&t=Vba7bsz4ecbmVQfW-f0O-m6MyHm0V1BeqeP1tQ1ETTY"
+										imgSrc="https://secureservercdn.net/198.71.233.109/phy.b29.myftpupload.com/wp-content/uploads/2020/06/Match-Made.png"
 										title={"Scholars"}
 										info={
 											"Scholars is a business recruiting platform that connects college students with employers for internships and entry-level positions."
 										}
 										icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
 										color="#650CF5"
-										logoUrl="https://media-exp1.licdn.com/dms/image/C4D0BAQFgS8Un77gFiQ/company-logo_200_200/0/1642960775349?e=1660780800&v=beta&t=3Zy6gQ0rnDFRV3DYNx0iEPyN65t4Mwi_NEhgOhb19Z0"
+										logoUrl="https://media-exp1.licdn.com/dms/image/C560BAQFHW-IqiWlxtA/company-logo_200_200/0/1654722667861?e=1674086400&v=beta&t=Vba7bsz4ecbmVQfW-f0O-m6MyHm0V1BeqeP1tQ1ETTY"
 										handle="scholars"
 									/>
 								</div>
