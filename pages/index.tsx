@@ -120,7 +120,7 @@ const Resume = () => {
 			location: "ATLANTA, GA",
 			degree: "GigLabs",
 			dates: "November 2021 - current",
-			imgSrc: "https://media-exp1.licdn.com/dms/image/C560BAQH9OoLPe6o9Mw/company-logo_200_200/0/1658379636694?e=1668643200&v=beta&t=uUxJDVlTrAfgzCr0oH0XmEjtb-sQFLBTgSwzcYWfYg8",
+			imgSrc: "https://media-exp1.licdn.com/dms/image/C560BAQH9OoLPe6o9Mw/company-logo_200_200/0/1658379636694?e=1676505600&v=beta&t=In1F_k3hAih7XlBuv8vvYde3zngAKpKaFWe3ifyVsjA",
 			bullets: [
 				<div>
 					Leading feature development of our{" "}
