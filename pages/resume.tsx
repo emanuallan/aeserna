@@ -236,7 +236,7 @@ const Resume = () => {
 		<>
 			<div className="text-whippy uppercase tracking-widest">
 				<div className="flex  justify-center">
-					<a href="/docs/resume.pdf" target="_blank" download>
+					<a href="/docs/AllanSernaResume.pdf" target="_blank" download>
 						<button className="text-whippy uppercase tracking-widest flex p-4">
 							<AiOutlineCloudDownload className="text-2xl mr-2" />
 							Download Resume
@@ -359,7 +359,7 @@ const Resume = () => {
 			</div>
 
 			<div className="flex  justify-center">
-				<a href="/docs/resume.pdf" target="_blank" download>
+				<a href="/docs/AllanSernaResume.pdf" target="_blank" download>
 					<button className="text-whippy p-4 ">
 						<AiOutlineCloudDownload className="text-2xl" />
 					</button>

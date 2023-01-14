@@ -123,7 +123,7 @@ const Scholars = () => {
 										He was an incredible addition to our engineering team and was able to quickly execute and ship several high-impact features to help scale our product. Allan jumped right in to take on any task and was quickly able to grasp concepts and learn new technologies on the fly.
 										
 										He works extremely hard to become a better and better engineer, and it's been a pleasure to work with him and watch him grow over the past several months. I'm confident that he can tackle any problem thrown his way, and recommend him to any team without reservation. I would love for the opportunity to work with Allan to join my team again."
-							imgSrc="https://pbs.twimg.com/profile_images/1291167402315587584/Rw4deqFL_400x400.jpg"
+							imgSrc="https://media.licdn.com/dms/image/C5603AQHFd08o_Va8pQ/profile-displayphoto-shrink_100_100/0/1631464043460?e=1678924800&v=beta&t=QMgrHu4sIhZxyUgpcBUChiRIIXHtZWdoNBdxjxr3jMQ"
 						/>
 						{/* <Testimonial
 										name="Francisco Jimenez"
@@ -173,14 +173,14 @@ const Scholars = () => {
 				</div>
 				<div className="items-center flex justify-around md:w-1/2 w-full flex-wrap sm:flex-no-wrap">
 					<img
-						src="https://www.sportradar.com/wp-content/uploads/sites/8/2014/06/fb_sp_logo.png"
-						alt="SportsRadar"
+						src="https://companieslogo.com/img/orig/DKNG-e9ded183.png?t=1660587881"
+						alt="DraftKings"
 						className="h-20 w-auto my-4"
 					/>
 
 					<img
-						src="https://www.nlgja.org/2019/wp-content/uploads/sites/14/2019/07/ESPN-logo-2015-1.png"
-						alt="ESPN"
+						src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/The_Athletic_wordmark_black_2020.svg/2560px-The_Athletic_wordmark_black_2020.svg.png"
+						alt="The Athletic"
 						className="h-8 w-auto my-4"
 					/>
 				</div>
