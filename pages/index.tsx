@@ -46,7 +46,7 @@ const Resume = () => {
 			name: "AWS COGNITO",
 		},
 		{
-			imgSrc: "https://assets.stickpng.com/images/5848104fcef1014c0b5e4950.png",
+			imgSrc: "https://cdn1.iconfinder.com/data/icons/programing-development-7/24/mysql_database_logo_data_base-512.png",
 			name: "MYSQL",
 		},
 	];
@@ -144,8 +144,8 @@ const Resume = () => {
 						NBA TopShot
 					</a>,{" "}
 					<a href="https://www.gigantik.io/explore" target="_blank" style={{ textDecoration: "underline" }}>
-						and more!
-					</a>
+						and more
+					</a>!
 				</div>, "Mentored a team of junior front-end developers through pair programming, and advanced React training, resulting in a notable improvement in the team's technical acumen and productivity"
 
 			],
