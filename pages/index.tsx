@@ -7,7 +7,7 @@ import SkillCard from "../components/SkillCard";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import FeaturedProjectCard from "../components/FeaturedProjectCard";
 import { FaReact, FaNodeJs, FaCss3Alt } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiNextDotJs, SiMongodb, SiFirebase, SiTypescript } from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiNextDotJs, SiMongodb, SiFirebase, SiTypescript, SiMysql } from "react-icons/si";
 
 const Resume = () => {
 	const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
@@ -19,6 +19,7 @@ const Resume = () => {
 	const FirebaseIcon = <SiFirebase className="text-3xl text-firebase" />;
 	const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
 	const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
+	const MySqlIcon = <SiMysql className="text-4xl text-css" />;
 
 	const backendArray = [
 		{
@@ -329,19 +330,19 @@ const Resume = () => {
 								bullets={work.bullets}
 								subColor={work.subColor}
 							/>
-								{/* {work.degree === "GigLabs" && (<div className="mb-20">
+								{work.degree === "GigLabs" && (<div className="mb-20">
 									<FeaturedProjectCard
-										imgSrc="https://uploads-ssl.webflow.com/62d03b2b62cba3255c55e1f2/62d82819cabe9cc633bfe973_49ers_small-transcode.mp4"
-										title={"NFL All Day: San Francisco 49ers"}
+										imgSrc="/imgs/gigantik.png"
+										title={"GIGANTIK"}
 										info={
-											"To celebrate the San Francisco 49ers' 75th anniversary we partnered with Dapper to offer a series of limited-edition, digital collectibles commemorating their 40th, 50th, 60th and 75th seasons."
+											"On GigLab's mission to empower brands to bring their IP to life on the blockchain through NFTs. Currently engineering NFT solutions with ease of use, conversion, and scalability in mind through our GIGANTIK platform."
 										}
-										icons={[ReactIcon, ReduxIcon, NodeIcon]}
-										color="#A40001"
+										icons={[ReactIcon, ReduxIcon, NodeIcon, MySqlIcon]}
+										color="#A680FF"
 										logoUrl="https://media-exp1.licdn.com/dms/image/C560BAQH9OoLPe6o9Mw/company-logo_200_200/0/1658379636694?e=1676505600&v=beta&t=In1F_k3hAih7XlBuv8vvYde3zngAKpKaFWe3ifyVsjA"
-										site="https://49ers.nflallday.com/"
+										site="https://www.gigantik.io/explore"
 									/>
-								</div>)} */}
+								</div>)}
 								{work.degree === "Scholars" && (<div className="mb-20">
 									<FeaturedProjectCard
 										imgSrc="https://secureservercdn.net/198.71.233.109/phy.b29.myftpupload.com/wp-content/uploads/2020/06/Match-Made.png"
