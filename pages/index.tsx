@@ -194,7 +194,7 @@ const Resume = () => {
 			bullets: [
 				"Significantly expanded the feature set of the Abode web platform with React, Redux, Tailwind, and Firebase.",
 				"Developed several high-level features on the application like the Blog (w/ full CRUD functionality), the Job Board, and all of the Student Resources and Company Profiles, amongst others.",
-				"Integrated Greenhouse (ATS) onto the platform for companies so that they can connect their Greenhouse account to their Scholars account.",
+				"Integrated Greenhouse (ATS) onto the platform for companies so that they can connect their Greenhouse account to their Abode account.",
 				"Implemented imports from CSV and Greenhouse while also polishing the data to create a dashboard for data visualizations.",
 			],
 			subColor: "#F3EDE5",
