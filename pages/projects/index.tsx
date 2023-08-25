@@ -142,14 +142,14 @@ const Projects = () => {
 			<div className=" w-full grid  grid-cols-1 gap-10 mt-10">
 				<FeaturedProjectCard
 					imgSrc="https://secureservercdn.net/198.71.233.109/phy.b29.myftpupload.com/wp-content/uploads/2020/06/Match-Made.png"
-					title={"Scholars"}
+					title={"Abode"}
 					info={
-						"Scholars is a business recruiting platform that connects college students with employers for internships and entry-level positions."
+						"Abode is a business recruiting platform that connects college students with employers for internships and entry-level positions."
 					}
 					icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
 					color="#08415C"
 					logoUrl="https://media-exp1.licdn.com/dms/image/C4E0BAQHPZloeKujdzw/company-logo_200_200/0?e=2159024400&v=beta&t=sPMZhft0EMlXU3cNUvnPpy0Kg46u5033VGQw7ex4nis"
-					handle="scholars"
+					handle="abode"
 				/>
 				<FeaturedProjectCard
 					imgSrc="https://tallysight.com/widget.png"

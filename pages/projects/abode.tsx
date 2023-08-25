@@ -25,7 +25,7 @@ import FeaturedProjectCard from "../../components/FeaturedProjectCard";
 import Testimonial from "../../components/Testimonial";
 
 //border-b-2 border-yikyak
-const Scholars = () => {
+const Abode = () => {
 	// const PythonIcon = <FaPython className="text-4xl text-python" />;
 	// const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
 	// const HTMLIcon = <FaHtml5 className="text-4xl text-html" />;
@@ -73,7 +73,7 @@ const Scholars = () => {
 		{
 			title: "ATS Integration",
 			tags: "Greenhouse, Harvest API",
-			info: "Feature for business partners that allows them to connect their Greenhouse Account to the platform. This allows them to be able to export candidates from Scholars to Greenhouse via their unique API key.",
+			info: "Feature for business partners that allows them to connect their Greenhouse Account to the platform. This allows them to be able to export candidates from Abode to Greenhouse via their unique API key.",
 			imgSrc: "/gifs/ats-integration.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
@@ -110,7 +110,7 @@ const Scholars = () => {
 		{
 			title: "Events Visitor Landing Page",
 			tags: "Routing for Social Media Sharing",
-			info: "Feature for business partners which allows them to share scheduled webinar events via a custom url. This url can then be shared on Social Media and lead potential candidates to a landing page. Those who are already users and logged in can just press the RSVP button to save the event to the Events tab of their profile. If they're a new user, the user is led to the register page where they can then sign up and join the Scholars platform so they can attend the event.",
+			info: "Feature for business partners which allows them to share scheduled webinar events via a custom url. This url can then be shared on Social Media and lead potential candidates to a landing page. Those who are already users and logged in can just press the RSVP button to save the event to the Events tab of their profile. If they're a new user, the user is led to the register page where they can then sign up and join the Abode platform so they can attend the event.",
 			imgSrc: "/gifs/event-landing.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
@@ -131,29 +131,29 @@ const Scholars = () => {
 		<div className="text-whippy flex flex-col items-center">
 			<div className=" w-full  mt-10 ">
 				<div className="w-full">
-					<FeaturedProjectCard
-						imgSrc="https://secureservercdn.net/198.71.233.109/phy.b29.myftpupload.com/wp-content/uploads/2020/06/Match-Made.png"
-						title={"Scholars"}
-						info={
-							"Scholars is a business recruiting platform that connects college students with employers for internships and entry-level positions."
-						}
-						icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
-						color="#650CF5"
-						logoUrl="https://media-exp1.licdn.com/dms/image/C560BAQFHW-IqiWlxtA/company-logo_200_200/0/1654722667861?e=1674086400&v=beta&t=Vba7bsz4ecbmVQfW-f0O-m6MyHm0V1BeqeP1tQ1ETTY"
-						site="https://hirescholars.com/"
-					/>
+				<FeaturedProjectCard
+					imgSrc="/imgs/scholars_widget.png"
+					title={"Abode"}
+					info={
+						"Abode is a business recruiting platform that connects college students with employers for internships and entry-level positions."
+					}
+					icons={[ReactIcon, ReduxIcon, NodeIcon, TailwindIcon, FirebaseIcon]}
+					color="#03321E"
+					logoUrl="/imgs/abode_logo.jpg"
+					site="https://www.abodehr.com/"
+				/>
 
 					<div className="flex flex-wrap md:flex-no-wrap  justify-center">
 						<Testimonial
 							name="Evan Deere"
-							title="Scholars CTO"
+							title="Abode CTO"
 							email="evan@quikfixjobs.com"
-							statement="Allan was able to quickly jump into the Scholars platform and add high-level features. He has proved to be a reliable developer with a great understanding for React and Redux. His programming skills, matched with his enthusiasm, would make a great addition to any team!"
-							imgSrc="https://pbs.twimg.com/profile_images/1087112295816355841/8r5Nr6CD.jpg"
+							statement="Allan was able to quickly jump into the Abode platform and add high-level features. He has proved to be a reliable developer with a great understanding for React and Redux. His programming skills, matched with his enthusiasm, would make a great addition to any team!"
+							imgSrc="/imgs/evan.jpg"
 						/>
 						{/* <Testimonial
 										name="Jahziel Villasana"
-										title="Scholars Co-Worker"
+										title="Abode Co-Worker"
 										email="jahz@gatech.edu"
 										statement="Sed fringilla mauris sit amet nibh. Fusce vulputate eleifend sapien. Donec posuere vulputate arcu. Cras sagittis. In hac habitasse platea dictumst.
 
@@ -166,7 +166,7 @@ const Scholars = () => {
 
 			<div className="flex self-start mt-10 mb-6 uppercase tracking-widest">
 				<FaStar className="text-xl mr-2 " />
-				<p>Features</p>
+				<p>Featured Work</p>
 			</div>
 			<div className="grid md:grid-cols-2 grid-cols-1 gap-1">
 				{features?.map((f) => (
@@ -217,4 +217,4 @@ const Scholars = () => {
 	);
 };
 
-export default Scholars;
+export default Abode;

@@ -4,7 +4,7 @@ const IndexPage = () => {
 			<a href="/projects/tallysight">
 				<img src="/gifs/social.gif" className="rounded  mx-auto" alt="Social Image Generator" />
 			</a>
-			<a href="/projects/scholars">
+			<a href="/projects/abode">
 				<img src="/gifs/companysearch.gif" className="rounded   mx-auto" alt="Company Search" />
 			</a>
 			<a href="/projects">
@@ -15,12 +15,11 @@ const IndexPage = () => {
 				<img src="/gifs/db-dispersive.gif" className="rounded   mx-auto" alt="Dispersive DB" />
 			</a>
 
-			<a href="/projects/scholars">
+			<a href="/projects/abode">
 				<img
 					src="/gifs/studentresources.gif"
 					className="rounded   mx-auto"
-					alt="Scholars
-				"
+					alt="Abode"
 				/>
 			</a>
 			<a href="/projects">
