@@ -31,7 +31,7 @@ const EducationCard: React.FC<EducationCardProps> = ({
 						{schoolName}{" "}
 						<span className="text-lg ">
 							<span className="whitespace-no-wrap w-full md:w-auto">{location}.</span> <br />{" "}
-							<span style={{ color: subColor }}>{degree}</span>
+							<span className="font-semibold" style={{ color: subColor }}>{degree}</span>
 						</span>
 					</p>
 					<p>{dates}</p>

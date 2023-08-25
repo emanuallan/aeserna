@@ -295,10 +295,9 @@ const Resume = () => {
 					<div className="flex justify-center items-center">
 						{/* <a href="https://opensea.io/aeserna" target="_blank"> */}
 							<img
-								src="/imgs/allans.jpg"
-								height="350px"
-								width="350px"
-								style={{ borderRadius: 1000, border: "15px solid white" }}
+								src="/imgs/allan-s.jpg"
+								
+								style={{ objectFit: "cover", objectPosition: "top", height: 400, width: 400, borderRadius: 1000, border: "15px solid white",  }}
 							/>
 						{/* </a> */}
 					</div>
@@ -340,7 +339,7 @@ const Resume = () => {
 										icons={[ReactIcon, ReduxIcon, NodeIcon, MySqlIcon]}
 										color="#A680FF"
 										logoUrl="/imgs/gigantik_logo.jpg"
-										site="https://www.gigantik.io/explore"
+										site="https://www.gigantik.io/sports-sponsors"
 									/>
 								</div>)}
 								{work.degree === "Abode (formerly Scholars)" && (<div className="mb-20">
