@@ -23,8 +23,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 					}}
 				/>
 			</Head>
-			<div style={{backgroundColor: "#362312"}}  className="flex justify-center">
-				<div style={{backgroundColor: "#362312"}} className={`h-full min-h-screen max-w-7xl w-full`}>
+			<div style={{backgroundColor: "#292E3A"}}  className="flex justify-center">
+				<div style={{backgroundColor: "#292E3A"}} className={`h-full min-h-screen max-w-7xl w-full`}>
 					<div className="mx-4 sm:mx-10 h-full min-h-screen flex flex-col justify-between">
 						<div>
 							<Menu />
