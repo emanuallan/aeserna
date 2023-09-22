@@ -133,22 +133,34 @@ const Resume = () => {
 						GIGANTIK Platform
 					</a>{" "}
 					which includes the consumer marketplace and CMS dashboard
-				</div>, <div>
-				Successfully developed a performant marketplace, capable of handling over 10,000 concurrent users, resulting in a significant increase in conversion rates, selling out tens of thousands web3 campaigns, exceeding business objectives. <br/>EXAMPLES: {" "} 
+				</div>,
+				<div>
+					Successfully developed a performant marketplace, capable of handling over 10,000 concurrent users,
+					resulting in a significant increase in conversion rates, selling out tens of thousands web3
+					campaigns, exceeding business objectives. <br />
+					EXAMPLES:{" "}
 					<a href="https://rams.nflallday.com/" target="_blank" style={{ textDecoration: "underline" }}>
 						NFL All Day
-					</a>,{" "}
+					</a>
+					,{" "}
 					<a href="https://www.ufcstrike.com/" target="_blank" style={{ textDecoration: "underline" }}>
 						UFC Strike
-					</a>,{" "}
-					<a href="https://twitter.com/nbatopshot/status/1499445926389235715?lang=en" target="_blank" style={{ textDecoration: "underline" }}>
+					</a>
+					,{" "}
+					<a
+						href="https://twitter.com/nbatopshot/status/1499445926389235715?lang=en"
+						target="_blank"
+						style={{ textDecoration: "underline" }}
+					>
 						NBA TopShot
-					</a>,{" "}
+					</a>
+					,{" "}
 					<a href="https://www.gigantik.io/explore" target="_blank" style={{ textDecoration: "underline" }}>
 						and more
-					</a>!
-				</div>, "Mentored a team of junior front-end developers through pair programming, and advanced React training, resulting in a notable improvement in the team's technical acumen and productivity"
-
+					</a>
+					!
+				</div>,
+				"Mentored a team of junior front-end developers through pair programming, and advanced React training, resulting in a notable improvement in the team's technical acumen and productivity",
 			],
 			subColor: "#A680FF",
 		},
@@ -160,15 +172,17 @@ const Resume = () => {
 			imgSrc: "https://www.theladders.com/s3proxy/company-photo.theladders.com/4480/edeb3083-c6ca-49ba-8e87-8743a9fa5e62.png",
 			bullets: [
 				<div>
-					Maintained 3 open-source <a
+					Maintained 3 open-source{" "}
+					<a
 						href="https://github.com/webex/webex-js-sdk"
 						target="_blank"
 						style={{ textDecoration: "underline" }}
 					>
 						SDK
-					</a> projects for Webex resulting in improved stability and a reduction in reported issues
-					
-				</div>, "Conducted thorough information security compliance reviews of the JS SDK’s code repository, resulting in a 100% compliance rate"
+					</a>{" "}
+					projects for Webex resulting in improved stability and a reduction in reported issues
+				</div>,
+				"Conducted thorough information security compliance reviews of the JS SDK’s code repository, resulting in a 100% compliance rate",
 			],
 			subColor: "#00BDEC",
 		},
@@ -255,7 +269,7 @@ const Resume = () => {
 			bullets: [
 				"Specializing in Computer Systems and Networks",
 				"PROGRAM GPA: 3.7",
-				"Courses taken so far: Computer Networks, Network Security, DB System Concepts & Design",
+				"Courses taken so far: Intro to InfoSec, Computer Networks, Network Security, DB System Concepts & Design, Software Analysis & Testing, Computer Law, Global Entrepeneurship, Robotic AI Techniques",
 			],
 			subColor: "#B3A26A",
 		},
@@ -294,11 +308,17 @@ const Resume = () => {
 				<div className="h-screen md:h-auto">
 					<div className="flex justify-center items-center">
 						{/* <a href="https://opensea.io/aeserna" target="_blank"> */}
-							<img
-								src="/imgs/allan-s.jpg"
-								
-								style={{ objectFit: "cover", objectPosition: "top", height: 400, width: 400, borderRadius: 1000, border: "15px solid white",  }}
-							/>
+						<img
+							src="/imgs/allan-s.jpg"
+							style={{
+								objectFit: "cover",
+								objectPosition: "top",
+								height: 400,
+								width: 400,
+								borderRadius: 1000,
+								border: "15px solid white",
+							}}
+						/>
 						{/* </a> */}
 					</div>
 					<div className="flex  justify-center my-10">
@@ -329,7 +349,8 @@ const Resume = () => {
 								bullets={work.bullets}
 								subColor={work.subColor}
 							/>
-								{work.degree === "Gigantik (formerly GigLabs)" && (<div className="mb-20">
+							{work.degree === "Gigantik (formerly GigLabs)" && (
+								<div className="mb-20">
 									<FeaturedProjectCard
 										imgSrc="/imgs/gigantik.png"
 										title={"GIGANTIK"}
@@ -341,8 +362,10 @@ const Resume = () => {
 										logoUrl="/imgs/gigantik_logo.jpg"
 										site="https://www.gigantik.io/sports-sponsors"
 									/>
-								</div>)}
-								{work.degree === "Abode (formerly Scholars)" && (<div className="mb-20">
+								</div>
+							)}
+							{work.degree === "Abode (formerly Scholars)" && (
+								<div className="mb-20">
 									<FeaturedProjectCard
 										imgSrc="/imgs/scholars_widget.png"
 										title={"Abode"}
@@ -354,8 +377,10 @@ const Resume = () => {
 										logoUrl="/imgs/abode_logo.jpg"
 										handle="abode"
 									/>
-								</div>)}
-								{work.degree === "TallySight" && (<div className="mb-20">
+								</div>
+							)}
+							{work.degree === "TallySight" && (
+								<div className="mb-20">
 									<FeaturedProjectCard
 										imgSrc="/imgs/tallysight_widget.png"
 										title={"TallySight"}
@@ -365,8 +390,8 @@ const Resume = () => {
 										handle="tallysight"
 										logoUrl="/imgs/tallysight_logo.jpg"
 									/>
-								</div>)}
-						
+								</div>
+							)}
 						</>
 					);
 				})}
