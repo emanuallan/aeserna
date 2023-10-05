@@ -400,7 +400,7 @@ const Resume = () => {
 										imgSrc="/imgs/gigantik.png"
 										title={"GIGANTIK"}
 										info={
-											"On GigLab's mission to empower brands to bring their IP to life on the blockchain through NFTs. Currently engineering NFT solutions with ease of use, conversion, and scalability in mind through our GIGANTIK platform."
+											"Gigantik is a platform that allows entertainment brands to bring their IP to life in the web3 space."
 										}
 										icons={[ReactIcon, ReduxIcon, NodeIcon, MySqlIcon]}
 										color="#A680FF"
