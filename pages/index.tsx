@@ -152,7 +152,7 @@ const Resume = () => {
 			imgSrc: "/imgs/gigantik_logo.jpg",
 			bullets: [
 				<div>
-					Spearheading front-end feature development of our{" "}
+					Led front-end feature development of our{" "}
 					<a
 						href="https://www.gigantik.io/"
 						target="_blank"
