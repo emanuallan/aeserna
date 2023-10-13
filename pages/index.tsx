@@ -148,7 +148,7 @@ const Resume = () => {
 			schoolName: "Software Engineer",
 			location: "ATLANTA, GA",
 			degree: "Gigantik (formerly GigLabs)",
-			dates: "November 2021 - October 2023",
+			dates: "Nov. 2021 - Oct. 2023",
 			imgSrc: "/imgs/gigantik_logo.jpg",
 			bullets: [
 				<div>
@@ -292,7 +292,7 @@ const Resume = () => {
 			schoolName: "Software Developer Intern",
 			location: "Alpharetta, GA",
 			degree: "Dispersive Networks",
-			dates: "May. 2019 - Aug. 2019",
+			dates: "May 2019 - Aug. 2019",
 			imgSrc: "https://emanuallan.github.io/img/dispersive-logo.png",
 			bullets: [
 				"Built a CRUD web application with ReactJS and Redux that manages permissions for certain applications based on positions in a visual workflow tree, streamlining the onboarding process.",
