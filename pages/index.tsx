@@ -14,7 +14,6 @@ import {
 	SiMongodb,
 	SiFirebase,
 	SiTypescript,
-	SiMysql,
 } from "react-icons/si";
 import Testimonial from "../components/Testimonial";
 
