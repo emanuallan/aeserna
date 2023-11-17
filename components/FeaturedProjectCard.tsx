@@ -26,7 +26,11 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 		<div className="w-full">
 			<div className="bg-white shadow-2xl rounded-lg mb-6 tracking-wide">
 				<div className="md:flex-shrink-0">
-					<img src={imgSrc} alt="mountains" className="w-full object-cover h-64 rounded-lg rounded-b-none" />
+					<img
+						src={imgSrc}
+						alt="mountains"
+						className="w-full object-cover h-64 rounded-lg rounded-b-none"
+					/>
 				</div>
 				<div className="px-4 py-2 mt-2 uppercase mr-1">
 					<div className="flex justify-between">
@@ -41,12 +45,19 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 								</svg>
 								Start-Up
 							</p>
-							<h2 className="font-bold text-2xl  tracking-wider" style={{ color: color }}>
+							<h2
+								className="font-bold text-2xl  tracking-wider"
+								style={{ color: color }}
+							>
 								{title}
 							</h2>
 						</div>
 						<div className="flex items-center">
-							<img className="rounded-full h-10 w-10" src={logoUrl} alt={title} />
+							<img
+								className="rounded-full h-10 w-10"
+								src={logoUrl}
+								alt={title}
+							/>
 						</div>
 					</div>
 
@@ -66,11 +77,18 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 							</h2> */}
 						<div>
 							{handle ? (
-								<a className="text-blue-500 font-bold" href={`/projects/${handle}`}>
+								<a
+									className="text-blue-500 font-bold underline"
+									href={`/projects/${handle}`}
+								>
 									View My Work
 								</a>
 							) : (
-								<a className="text-blue-500 font-bold" href={site} target="_blank">
+								<a
+									className="text-blue-500 font-bold underline"
+									href={site}
+									target="_blank"
+								>
 									Visit Site
 								</a>
 							)}

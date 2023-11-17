@@ -16,6 +16,7 @@ import {
 	SiTypescript,
 	SiMysql,
 } from "react-icons/si";
+import Testimonial from "../components/Testimonial";
 
 const Resume = () => {
 	const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
@@ -354,7 +355,7 @@ const Resume = () => {
 					<div className="flex justify-center items-center">
 						{/* <a href="https://opensea.io/aeserna" target="_blank"> */}
 						<img
-							src="/imgs/allan-s.jpg"
+							src="/imgs/allan-nft.png"
 							style={{
 								objectFit: "cover",
 								objectPosition: "top",
@@ -396,7 +397,28 @@ const Resume = () => {
 							/>
 							{work.degree === "Gigantik (formerly GigLabs)" && (
 								<div className="mb-20">
-									<FeaturedProjectCard
+									<div className="flex flex-wrap md:flex-no-wrap  justify-center">
+										<Testimonial
+											name="Andrew Roberts"
+											title="Gigantik Senior Technical Lead"
+											email="drew@gigantik.io"
+											statement="I worked very closely with Allan Serna for two years. He worked as a member of the development team at GigLabs while I was one of the lead developers. During this time, Allan proved himself to be a valuable team member by demonstrating not only excellent technical skills but also demonstrating the ability to work as a team to achieve common goals. Allan always strived to deliver high quality software and consistently went above and beyond his regular duties to ensure this high level of quality was met. 
+
+							When Allan joined GigLabs, he was a recent college graduate. Our expectations for Allan were for his contributions to the team to be in line with a junior developer role. However, over the course of two years Allan demonstrated not only the ability to learn new skills quickly but to also apply them in the necessary situations. By the end of his time at GigLabs, Allan was contributing to the team in a senior developer capacity. His contributions to our platform will have a lasting impact for years to come.
+							
+							Allan is a very talented developer and I’m confident that Allan has the intelligence, work ethic, and communication skills to be a key contributor wherever he works. I couldn't recommend Allan more highly."
+											imgSrc="https://media.licdn.com/dms/image/C4D03AQHHEyPMK6SctQ/profile-displayphoto-shrink_100_100/0/1575423275731?e=1705536000&v=beta&t=t_oWr2rtKK8xlJ3WOZh3GSNTHo6kPxYt1T_sWiSmPTc"
+										/>
+
+										<Testimonial
+											name="Vince Oswalt"
+											title="Gigantik Head of Engineering"
+											email="vince@gigantik.io"
+											statement="I had the pleasure to work with Allan for several years and I recommend him without reservation. Allan can handle anything you throw at him and he always impressed me with his ability to exceed expectations. Allan is a fantastic person and will definitely be an asset to any team fortunate enough to have him onboard. "
+											imgSrc="https://media.licdn.com/dms/image/C4D03AQGnNKzRjvHZtQ/profile-displayphoto-shrink_100_100/0/1576517981087?e=1705536000&v=beta&t=-Hz8uujWoVterpDcmiaPuE4mJ_1hOVH9emopIcKwq6U"
+										/>
+									</div>
+									{/* <FeaturedProjectCard
 										imgSrc="/imgs/gigantik.png"
 										title={"GIGANTIK"}
 										info={
@@ -406,7 +428,7 @@ const Resume = () => {
 										color="#A680FF"
 										logoUrl="/imgs/gigantik_logo.jpg"
 										site="https://www.gigantik.io/sports-sponsors"
-									/>
+									/> */}
 								</div>
 							)}
 							{work.degree === "Abode (formerly Scholars)" && (
