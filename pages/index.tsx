@@ -28,7 +28,7 @@ const Resume = () => {
 	const FirebaseIcon = <SiFirebase className="text-3xl text-firebase" />;
 	const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
 	const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
-	const MySqlIcon = <SiMysql className="text-4xl text-css" />;
+	// const MySqlIcon = <SiMysql className="text-4xl text-css" />;
 
 	const backendArray = [
 		{
