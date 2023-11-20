@@ -145,7 +145,7 @@ const Resume = () => {
 
 	const workArray = [
 		{
-			schoolName: "Software Engineer",
+			schoolName: "Sr. Front-End Software Engineer",
 			location: "ATLANTA, GA",
 			degree: "Gigantik (formerly GigLabs)",
 			dates: "Nov. 2021 - Oct. 2023",
@@ -206,7 +206,7 @@ const Resume = () => {
 			subColor: "#A680FF",
 		},
 		{
-			schoolName: "Software Engineer G6",
+			schoolName: "Software Engineer II",
 			location: "SAN JOSE, CA",
 			degree: "Cisco",
 			dates: "JUNE 2021 - Nov. 2021",
@@ -230,7 +230,7 @@ const Resume = () => {
 			subColor: "#00BDEC",
 		},
 		{
-			schoolName: "Software Development Engineer II",
+			schoolName: "Front-End Development Engineer II",
 			location: "IRVING, TX",
 			degree: "MICHAELS",
 			dates: "NOV. 2020 - jUNE 2021",
