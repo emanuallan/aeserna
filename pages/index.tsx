@@ -19,6 +19,16 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 
 export const workArray = [
 	{
+		schoolName: "Software Engineer III",
+		location: "Atlanta, GA",
+		degree: "PrizePicks",
+		dates: "Feb. 2025 - Present",
+		imgSrc: "/imgs/prizepicks.jpg",
+		bullets: [],
+		subColor: "#7F00FD",
+		description: "",
+	},
+	{
 		schoolName: "Lead Front-End Developer",
 		location: "Brooklyn, NY",
 		degree: "Vera AI",
