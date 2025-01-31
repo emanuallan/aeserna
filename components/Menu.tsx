@@ -1,6 +1,6 @@
 import React from "react";
 //import Link from "next/link";
-import { RiLinkedinLine, RiGithubLine, RiTwitterLine, RiMailLine } from "react-icons/ri";
+import { RiLinkedinLine, RiGithubLine, RiMailLine } from "react-icons/ri";
 
 const Menu = () => {
 	return (
@@ -50,9 +50,9 @@ const Menu = () => {
 					<a href="https://github.com/emanuallan/" target="_blank">
 						<RiGithubLine className={`w-6 h-6 text-whippy`} />
 					</a>
-					<a href="https://twitter.com/allaneserna" target="_blank">
+					{/* <a href="https://twitter.com/allaneserna" target="_blank">
 						<RiTwitterLine className={`w-6 h-6 text-whippy`} />
-					</a>
+					</a> */}
 					<a href="mailto:emanuallan@gmail.com" target="_blank">
 						<RiMailLine className={`w-6 h-6 text-whippy`} />
 					</a>
