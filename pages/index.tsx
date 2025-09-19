@@ -26,7 +26,7 @@ export const workArray = [
 		imgSrc: "/imgs/prizepicks.jpg",
 		bullets: [],
 		subColor: "#7F00FD",
-		description: "",
+		description: "I implemented faceid login for the app",
 	},
 	{
 		schoolName: "Lead Front-End Developer",
