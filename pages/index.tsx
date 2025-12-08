@@ -378,7 +378,7 @@ const Resume = () => {
 					<div className="flex justify-center items-center">
 						{/* <a href="https://opensea.io/aeserna" target="_blank"> */}
 						<img
-							src="/imgs/allan_purple.jpg"
+							src="/imgs/allans.jpg"
 							style={{
 								objectFit: "cover",
 								objectPosition: "top",
