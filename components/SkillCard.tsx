@@ -7,12 +7,9 @@ interface SkillCardProps {
 
 const SkillCard: React.FC<SkillCardProps> = ({ name, icon }) => {
 	return (
-		<div
-			style={{ minWidth: "20em" }}
-			className="flex flex-col items-center justify-center px-4 py-4 m-4 mt-4 bg-whippy border border-gray-300 rounded sm:mt-0"
-		>
-			<div className="w-24 h-24 mb-6 flex items-center justify-center">{icon}</div>
-			<p className="text-lg text-center text-charcoal font-semibold">{name}</p>
+		<div className="inline-flex items-center px-3 py-2 m-1 rounded border border-gray-600">
+			<span className="flex items-center justify-center mr-2 text-2xl leading-none">{icon}</span>
+			<span className="text-sm normal-case tracking-normal">{name}</span>
 		</div>
 	);
 };

@@ -288,49 +288,50 @@ type Skill = {
 };
 
 export const programmingLanguagesArray: Skill[] = [
-	{ name: "JavaScript", Icon: SiJavascript, iconClassName: "text-6xl text-javascript" },
-	{ name: "TypeScript", Icon: SiTypescript, iconClassName: "text-6xl text-css" },
-	{ name: "HTML", Icon: FaHtml5, iconClassName: "text-6xl text-html" },
-	{ name: "CSS", Icon: FaCss3Alt, iconClassName: "text-6xl text-css" },
-	{ name: "Java", Icon: FaJava, iconClassName: "text-6xl text-charcoal" },
-	{ name: "Python", Icon: FaPython, iconClassName: "text-6xl text-python" },
-	{ name: "SQL", Icon: FaDatabase, iconClassName: "text-6xl text-charcoal" },
+	{ name: "JavaScript", Icon: SiJavascript, iconClassName: "text-javascript" },
+	{ name: "TypeScript", Icon: SiTypescript, iconClassName: "text-css" },
+	{ name: "HTML", Icon: FaHtml5, iconClassName: "text-html" },
+	{ name: "CSS", Icon: FaCss3Alt, iconClassName: "text-css" },
+	{ name: "Java", Icon: FaJava, iconClassName: "text-whippy" },
+	{ name: "Python", Icon: FaPython, iconClassName: "text-python" },
+	{ name: "SQL", Icon: FaDatabase, iconClassName: "text-whippy" },
 ];
 
 export const frameworksArray: Skill[] = [
-	{ name: "React", Icon: FaReact, iconClassName: "text-6xl text-react" },
-	{ name: "Next.js", Icon: SiNextDotJs, iconClassName: "text-6xl text-whippy" },
-	{ name: "React Native", Icon: FaMobileAlt, iconClassName: "text-6xl text-react" },
-	{ name: "React Query", Icon: FaCodeBranch, iconClassName: "text-6xl text-react" },
-	{ name: "Zustand", Icon: FaStore, iconClassName: "text-6xl text-charcoal" },
-	{ name: "Redux", Icon: SiRedux, iconClassName: "text-6xl text-redux" },
-	{ name: "Saga", Icon: FaCodeBranch, iconClassName: "text-6xl text-redux" },
-	{ name: "Node.js", Icon: FaNodeJs, iconClassName: "text-6xl text-node" },
+	{ name: "React", Icon: FaReact, iconClassName: "text-react" },
+	{ name: "Next.js", Icon: SiNextDotJs, iconClassName: "text-whippy" },
+	{ name: "React Native", Icon: FaMobileAlt, iconClassName: "text-react" },
+	{ name: "React-Query", Icon: FaCodeBranch, iconClassName: "text-react" },
+	{ name: "Zustand", Icon: FaStore, iconClassName: "text-whippy" },
+	{ name: "Redux", Icon: SiRedux, iconClassName: "text-redux" },
+	{ name: "Saga", Icon: FaCodeBranch, iconClassName: "text-redux" },
+	{ name: "NodeJS", Icon: FaNodeJs, iconClassName: "text-node" },
 ];
 
 export const designLibrariesArray: Skill[] = [
-	{ name: "TailwindCSS", Icon: SiTailwindcss, iconClassName: "text-6xl text-tailwind" },
-	{ name: "ShadCN", Icon: FaLayerGroup, iconClassName: "text-6xl text-charcoal" },
+	{ name: "TailwindCSS", Icon: SiTailwindcss, iconClassName: "text-tailwind" },
+	{ name: "ShadCN", Icon: FaLayerGroup, iconClassName: "text-whippy" },
 	{
 		name: "Styled Components",
 		Icon: SiStyledComponents,
-		iconClassName: "text-6xl text-charcoal",
+		iconClassName: "text-whippy",
 	},
-	{ name: "Chakra UI", Icon: FaFeather, iconClassName: "text-6xl text-tailwind" },
-	{ name: "Material UI", Icon: SiMaterialUi, iconClassName: "text-6xl text-react" },
-	{ name: "React Bootstrap", Icon: SiBootstrap, iconClassName: "text-6xl text-charcoal" },
-	{ name: "Storybook", Icon: SiStorybook, iconClassName: "text-6xl text-charcoal" },
+	{ name: "Chakra UI", Icon: FaFeather, iconClassName: "text-tailwind" },
+	{ name: "Material UI", Icon: SiMaterialUi, iconClassName: "text-react" },
+	{ name: "React Bootstrap", Icon: SiBootstrap, iconClassName: "text-whippy" },
+	{ name: "Storybook", Icon: SiStorybook, iconClassName: "text-whippy" },
 ];
 
 export const backendArray: Skill[] = [
-	{ name: "Supabase", Icon: FaDatabase, iconClassName: "text-6xl text-tailwind" },
-	{ name: "MySQL", Icon: SiMysql, iconClassName: "text-6xl text-charcoal" },
-	{ name: "Firebase", Icon: SiFirebase, iconClassName: "text-6xl text-firebase" },
-	{ name: "MongoDB", Icon: SiMongodb, iconClassName: "text-6xl text-mongo" },
-	{ name: "AWS Lambda", Icon: SiAmazonaws, iconClassName: "text-6xl text-charcoal" },
-	{ name: "API Gateway", Icon: SiAmazonaws, iconClassName: "text-6xl text-charcoal" },
-	{ name: "DynamoDB", Icon: SiAmazonaws, iconClassName: "text-6xl text-charcoal" },
-	{ name: "Cognito", Icon: SiAmazonaws, iconClassName: "text-6xl text-charcoal" },
+	{ name: "Supabase", Icon: FaDatabase, iconClassName: "text-tailwind" },
+	{ name: "MySQL", Icon: SiMysql, iconClassName: "text-whippy" },
+	{ name: "Firebase", Icon: SiFirebase, iconClassName: "text-firebase" },
+	{ name: "MongoDB", Icon: SiMongodb, iconClassName: "text-mongo" },
+	{
+		name: "AWS (Lambda, API Gateway, DynamoDB, Cognito)",
+		Icon: SiAmazonaws,
+		iconClassName: "text-whippy",
+	},
 ];
 
 const Resume = () => {
@@ -489,10 +490,10 @@ const Resume = () => {
 					<ImRocket className="text-xl mr-2" />
 					<p>Skills</p>
 				</div>
-				<div className="pb-12">
-					<div className="text-center pb-12">Languages</div>
+				<div className="pb-8">
+					<div className="text-center pb-4">Languages</div>
 
-					<div className="flex justify-around flex-wrap">
+					<div className="flex flex-wrap justify-center">
 						{programmingLanguagesArray.map(({ name, Icon, iconClassName }) => (
 							<SkillCard
 								key={name}
@@ -502,10 +503,10 @@ const Resume = () => {
 						))}
 					</div>
 				</div>
-				<div className="pb-12">
-					<div className="text-center pb-12">Frameworks</div>
+				<div className="pb-8">
+					<div className="text-center pb-4">Frameworks</div>
 
-					<div className="flex justify-around flex-wrap">
+					<div className="flex flex-wrap justify-center">
 						{frameworksArray.map(({ name, Icon, iconClassName }) => (
 							<SkillCard
 								key={name}
@@ -515,10 +516,10 @@ const Resume = () => {
 						))}
 					</div>
 				</div>
-				<div className="pb-12">
-					<div className="text-center pb-12">Design Libraries</div>
+				<div className="pb-8">
+					<div className="text-center pb-4">Design Libraries</div>
 
-					<div className="flex justify-around flex-wrap">
+					<div className="flex flex-wrap justify-center">
 						{designLibrariesArray.map(({ name, Icon, iconClassName }) => (
 							<SkillCard
 								key={name}
@@ -528,10 +529,10 @@ const Resume = () => {
 						))}
 					</div>
 				</div>
-				<div className="pb-12">
-					<div className="text-center pb-12">Back-end Services</div>
+				<div className="pb-8">
+					<div className="text-center pb-4">Back-end Services</div>
 
-					<div className="flex justify-around flex-wrap">
+					<div className="flex flex-wrap justify-center">
 						{backendArray.map(({ name, Icon, iconClassName }) => (
 							<SkillCard
 								key={name}
