@@ -5,17 +5,35 @@ import { MdWork } from "react-icons/md";
 import { ImRocket } from "react-icons/im";
 import SkillCard from "../components/SkillCard";
 import { AiOutlineCloudDownload } from "react-icons/ai";
-// import FeaturedProjectCard from "../components/FeaturedProjectCard";
-// import { FaReact, FaNodeJs, FaCss3Alt } from "react-icons/fa";
-// import {
-// 	SiRedux,
-// 	SiTailwindcss,
-// 	SiNextDotJs,
-// 	SiMongodb,
-// 	SiFirebase,
-// 	SiTypescript,
-// } from "react-icons/si";
-// import Testimonial from "../components/Testimonial";
+import {
+	FaReact,
+	FaNodeJs,
+	FaHtml5,
+	FaCss3Alt,
+	FaPython,
+	FaJava,
+	FaDatabase,
+	FaStore,
+	FaMobileAlt,
+	FaCodeBranch,
+	FaLayerGroup,
+	FaFeather,
+} from "react-icons/fa";
+import {
+	SiJavascript,
+	SiTypescript,
+	SiRedux,
+	SiNextDotJs,
+	SiTailwindcss,
+	SiMongodb,
+	SiFirebase,
+	SiMysql,
+	SiBootstrap,
+	SiStorybook,
+	SiMaterialUi,
+	SiStyledComponents,
+	SiAmazonaws,
+} from "react-icons/si";
 
 export const workArray = [
 	{
@@ -263,114 +281,59 @@ export const educationArray = [
 	},
 ];
 
-export const backendArray = [
-	{
-		imgSrc:
-			"https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png",
-		name: "Firebase",
-	},
-	{
-		imgSrc: "https://cdn.iconscout.com/icon/free/png-512/mongodb-4-1175139.png",
-		name: "Mongo",
-	},
-	{
-		imgSrc:
-			"https://iconape.com/wp-content/files/za/33897/png/aws-api-gateway.png",
-		name: "AWS API GateWay",
-	},
-	{
-		imgSrc:
-			"https://seeklogo.com/images/A/aws-lambda-logo-AE95CFC218-seeklogo.com.png",
-		name: "AWS LAMBDA",
-	},
-	{
-		imgSrc: "https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png",
-		name: "AWS DYNAMODB",
-	},
-	{
-		imgSrc: "https://miro.medium.com/max/512/1*m5Wc6pyKsGIf2SnYbUH3PQ.png",
-		name: "AWS COGNITO",
-	},
-	{
-		imgSrc:
-			"https://cdn1.iconfinder.com/data/icons/programing-development-7/24/mysql_database_logo_data_base-512.png",
-		name: "MYSQL",
-	},
+type Skill = {
+	name: string;
+	Icon: React.ComponentType<{ className?: string }>;
+	iconClassName: string;
+};
+
+export const programmingLanguagesArray: Skill[] = [
+	{ name: "JavaScript", Icon: SiJavascript, iconClassName: "text-6xl text-javascript" },
+	{ name: "TypeScript", Icon: SiTypescript, iconClassName: "text-6xl text-css" },
+	{ name: "HTML", Icon: FaHtml5, iconClassName: "text-6xl text-html" },
+	{ name: "CSS", Icon: FaCss3Alt, iconClassName: "text-6xl text-css" },
+	{ name: "Java", Icon: FaJava, iconClassName: "text-6xl text-charcoal" },
+	{ name: "Python", Icon: FaPython, iconClassName: "text-6xl text-python" },
+	{ name: "SQL", Icon: FaDatabase, iconClassName: "text-6xl text-charcoal" },
 ];
 
-export const frameworksAndLibrariesArray = [
-	{
-		imgSrc: "https://miro.medium.com/max/900/1*KANHihva9OdXx2-V5EDn3g.png",
-		name: "React (JS & Native)",
-	},
-	{
-		imgSrc: "https://cdn.iconscout.com/icon/free/png-512/redux-283024.png",
-		name: "Redux",
-	},
-	{
-		imgSrc:
-			"https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
-		name: "NodeJS",
-	},
-	{
-		imgSrc:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png",
-		name: "TailwindCSS",
-	},
-	{
-		imgSrc: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
-		name: "Chakra UI",
-	},
-	{
-		imgSrc: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
-		name: "Next. JS",
-	},
+export const frameworksArray: Skill[] = [
+	{ name: "React", Icon: FaReact, iconClassName: "text-6xl text-react" },
+	{ name: "Next.js", Icon: SiNextDotJs, iconClassName: "text-6xl text-whippy" },
+	{ name: "React Native", Icon: FaMobileAlt, iconClassName: "text-6xl text-react" },
+	{ name: "React Query", Icon: FaCodeBranch, iconClassName: "text-6xl text-react" },
+	{ name: "Zustand", Icon: FaStore, iconClassName: "text-6xl text-charcoal" },
+	{ name: "Redux", Icon: SiRedux, iconClassName: "text-6xl text-redux" },
+	{ name: "Saga", Icon: FaCodeBranch, iconClassName: "text-6xl text-redux" },
+	{ name: "Node.js", Icon: FaNodeJs, iconClassName: "text-6xl text-node" },
 ];
 
-export const programmingLanguagesArray = [
+export const designLibrariesArray: Skill[] = [
+	{ name: "TailwindCSS", Icon: SiTailwindcss, iconClassName: "text-6xl text-tailwind" },
+	{ name: "ShadCN", Icon: FaLayerGroup, iconClassName: "text-6xl text-charcoal" },
 	{
-		imgSrc:
-			"https://images.vexels.com/media/users/3/166403/isolated/preview/a5a33bf3004830a2bd581e9fa65de660-javascript-programming-language-icon-by-vexels.png",
-		name: "JavaScript",
+		name: "Styled Components",
+		Icon: SiStyledComponents,
+		iconClassName: "text-6xl text-charcoal",
 	},
-	{
-		imgSrc:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png",
-		name: "HTML",
-	},
-	{
-		imgSrc: "https://blog.artegrafico.net/wp-content/uploads/2019/02/css.png",
-		name: "CSS",
-	},
-	{
-		imgSrc:
-			"https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png",
-		name: "JAVA",
-	},
-	{
-		imgSrc:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-		name: "PYTHON",
-	},
-	{
-		imgSrc:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
-		name: "TypeScript",
-	},
+	{ name: "Chakra UI", Icon: FaFeather, iconClassName: "text-6xl text-tailwind" },
+	{ name: "Material UI", Icon: SiMaterialUi, iconClassName: "text-6xl text-react" },
+	{ name: "React Bootstrap", Icon: SiBootstrap, iconClassName: "text-6xl text-charcoal" },
+	{ name: "Storybook", Icon: SiStorybook, iconClassName: "text-6xl text-charcoal" },
+];
+
+export const backendArray: Skill[] = [
+	{ name: "Supabase", Icon: FaDatabase, iconClassName: "text-6xl text-tailwind" },
+	{ name: "MySQL", Icon: SiMysql, iconClassName: "text-6xl text-charcoal" },
+	{ name: "Firebase", Icon: SiFirebase, iconClassName: "text-6xl text-firebase" },
+	{ name: "MongoDB", Icon: SiMongodb, iconClassName: "text-6xl text-mongo" },
+	{ name: "AWS Lambda", Icon: SiAmazonaws, iconClassName: "text-6xl text-charcoal" },
+	{ name: "API Gateway", Icon: SiAmazonaws, iconClassName: "text-6xl text-charcoal" },
+	{ name: "DynamoDB", Icon: SiAmazonaws, iconClassName: "text-6xl text-charcoal" },
+	{ name: "Cognito", Icon: SiAmazonaws, iconClassName: "text-6xl text-charcoal" },
 ];
 
 const Resume = () => {
-	// const CSSIcon = <FaCss3Alt className="text-4xl text-css" />;
-	// const ReactIcon = <FaReact className="text-4xl text-react" />;
-	// const NodeIcon = <FaNodeJs className="text-4xl text-node" />;
-	// const ReduxIcon = <SiRedux className="text-3xl text-redux" />;
-	// const NextJsIcon = <SiNextDotJs className="text-3xl text-black" />;
-	// const MongoIcon = <SiMongodb className="text-3xl text-mongo" />;
-	// const FirebaseIcon = <SiFirebase className="text-3xl text-firebase" />;
-	// const TailwindIcon = <SiTailwindcss className="text-3xl text-tailwind" />;
-	// const TypescriptIcon = <SiTypescript className="text-3xl text-css" />;
-	// const MySqlIcon = <SiMysql className="text-4xl text-css" />;
-
 	return (
 		<>
 			<div className="text-whippy uppercase tracking-widest">
@@ -527,29 +490,54 @@ const Resume = () => {
 					<p>Skills</p>
 				</div>
 				<div className="pb-12">
-					<div className="text-center pb-12">Programming Languages</div>
+					<div className="text-center pb-12">Languages</div>
 
 					<div className="flex justify-around flex-wrap">
-						{programmingLanguagesArray.map((pl) => (
-							<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
+						{programmingLanguagesArray.map(({ name, Icon, iconClassName }) => (
+							<SkillCard
+								key={name}
+								name={name}
+								icon={<Icon className={iconClassName} aria-hidden />}
+							/>
 						))}
 					</div>
 				</div>
 				<div className="pb-12">
-					<div className="text-center pb-12">Frameworks & Libraries</div>
+					<div className="text-center pb-12">Frameworks</div>
 
 					<div className="flex justify-around flex-wrap">
-						{frameworksAndLibrariesArray.map((pl) => (
-							<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
+						{frameworksArray.map(({ name, Icon, iconClassName }) => (
+							<SkillCard
+								key={name}
+								name={name}
+								icon={<Icon className={iconClassName} aria-hidden />}
+							/>
 						))}
 					</div>
 				</div>
 				<div className="pb-12">
-					<div className="text-center pb-12">Back-end services</div>
+					<div className="text-center pb-12">Design Libraries</div>
 
 					<div className="flex justify-around flex-wrap">
-						{backendArray.map((pl) => (
-							<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
+						{designLibrariesArray.map(({ name, Icon, iconClassName }) => (
+							<SkillCard
+								key={name}
+								name={name}
+								icon={<Icon className={iconClassName} aria-hidden />}
+							/>
+						))}
+					</div>
+				</div>
+				<div className="pb-12">
+					<div className="text-center pb-12">Back-end Services</div>
+
+					<div className="flex justify-around flex-wrap">
+						{backendArray.map(({ name, Icon, iconClassName }) => (
+							<SkillCard
+								key={name}
+								name={name}
+								icon={<Icon className={iconClassName} aria-hidden />}
+							/>
 						))}
 					</div>
 				</div>
