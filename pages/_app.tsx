@@ -10,6 +10,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
+				<title>Allan E. Serna</title>
+				<meta
+					name="description"
+					content="Allan E. Serna — software engineer based in Atlanta, GA."
+				/>
 				<script
 					async
 					src="https://www.googletagmanager.com/gtag/js?id=UA-146649922-1"

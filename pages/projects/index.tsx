@@ -57,14 +57,14 @@ const Projects = () => {
 		{
 			title: "Purplepundit",
 			imgSrc: "https://emanuallan.github.io/img/purple-pundit.jpg",
-			info: "React web application that seperates the latest news articles according to their liberal & conservative bias using the NewsAPI and Media Bias Fact Checker.",
+			info: "React web application that separates the latest news articles according to their liberal & conservative bias using the NewsAPI and Media Bias Fact Checker.",
 			icons: [ReactIcon, NodeIcon, PhotoshopIcon],
 			code: "https://github.com/emanuallan/WTLT",
 			demo: "https://purplepundit.appspot.com/",
 		},
 		{
 			title: "Dispersive Service-Prov Dashboard",
-			info: "A dashboard created for Dispersive's clientel's devices. Users can add, edit, delete, and search for certain devices within their system.",
+			info: "A dashboard created for Dispersive's clients' devices. Users can add, edit, delete, and search for certain devices within their system.",
 			imgSrc: "https://emanuallan.github.io/img/dispersive.jpeg",
 			icons: [ReactIcon, ReduxIcon, NodeIcon],
 			code: "https://github.com/emanuallan/service-prov-dash",
@@ -98,7 +98,6 @@ const Projects = () => {
 			info: "A python script that checks New Balance's outlet store website, Joe's, and checks for price changes (+/-) and new arrivals, as well as, removals amongst sneakers and clothing and exports them as a csv file. Done with Selenium and ChromeDriver.",
 			imgSrc: "https://9to5toys.com/wp-content/uploads/sites/5/2018/06/joes-new-balance-4th-of-july.jpg?quality=82&strip=all",
 			icons: [PythonIcon],
-			code: "https://github.com/emanuallan/stocko",
 			demo: "https://photos.google.com/share/AF1QipPw4ZSDQKFZ6Tu_Hb8_NcpCFwFVT7tP348chXWTI_JQta8u_EtkPr4Uw7RrKEudTQ?key=Y2pwQ042OGY3dXpncmZ3cW92Y1R2dWt0dW9Bb2Vn",
 		},
 		{
@@ -168,7 +167,7 @@ const Projects = () => {
 			<div className="grid sm:grid-cols-2 grid-cols-1 gap-10">
 				{projects?.map((p) => (
 					<HorizontalCard
-						key={p.info}
+						key={p.title}
 						info={p.info}
 						imgSrc={p.imgSrc}
 						title={p.title}

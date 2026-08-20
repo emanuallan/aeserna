@@ -26,7 +26,7 @@ export const workArray = [
 		imgSrc: "/imgs/prizepicks.jpg",
 		bullets: [],
 		subColor: "#7F00FD",
-		description: "Implemented faceid login for the app",
+		description: "Implemented Face ID login for the app.",
 	},
 	{
 		schoolName: "Lead Front-End Developer",
@@ -37,11 +37,11 @@ export const workArray = [
 		bullets: [],
 		subColor: "#F8E457",
 		description:
-			"As the Founding Front-End Lead Engineer, I led the development and maintenance of three key customer-facing applications—our chat app, admin app, and prototype/demo app—delivering high-performing, reliable experiences across the board. I took full ownership of designing, building, and maintaining these fe applications, while also writing detailed design documents for every feature and collaborating closely with a contracted design team to bring our vision to life. My expertise lies in a cutting-edge tech stack, including React, Zustand, Tanstack Router, React Query, Chakra UI, Tailwind, and Vite, ensuring scalable and efficient front-end solutions.",
+			"As the Founding Front-End Lead Engineer, I led the development and maintenance of three key customer-facing applications—our chat app, admin app, and prototype/demo app—delivering high-performing, reliable experiences across the board. I took full ownership of designing, building, and maintaining these front-end applications, while also writing detailed design documents for every feature and collaborating closely with a contracted design team to bring our vision to life. My expertise lies in a cutting-edge tech stack, including React, Zustand, Tanstack Router, React Query, Chakra UI, Tailwind, and Vite, ensuring scalable and efficient front-end solutions.",
 	},
 	{
 		schoolName: "Sr. Front-End Software Engineer",
-		location: "ATLANTA, GA",
+		location: "Atlanta, GA",
 		degree: "Gigantik (formerly GigLabs)",
 		dates: "Nov. 2021 - Oct. 2023",
 		imgSrc: "/imgs/gigantik_logo.jpg",
@@ -101,13 +101,13 @@ export const workArray = [
 		// ],
 		subColor: "#A680FF",
 		description:
-			"I led feature development of our front-end products, delivering a high-performance platform accommodating several thousands of users. This resulted in increased conversion rates and the successful sell-out of tens of thousands of nfts and multiple web3 campaigns. Beyond development, I mentored junior front-end developers, enhancing their technical skills and overall productivity. Knowledge in a robust tech stack including React, Redux-Saga, Redux (FE), and Node, Express, MySQL (BE).",
+			"I led feature development of our front-end products, delivering a high-performance platform accommodating several thousands of users. This resulted in increased conversion rates and the successful sell-out of tens of thousands of NFTs and multiple web3 campaigns. Beyond development, I mentored junior front-end developers, enhancing their technical skills and overall productivity. Knowledge in a robust tech stack including React, Redux-Saga, Redux (FE), and Node, Express, MySQL (BE).",
 	},
 	{
 		schoolName: "Software Engineer II",
-		location: "SAN JOSE, CA",
+		location: "San Jose, CA",
 		degree: "Cisco",
-		dates: "JUNE 2021 - Nov. 2021",
+		dates: "June 2021 - Nov. 2021",
 		imgSrc:
 			"https://www.theladders.com/s3proxy/company-photo.theladders.com/4480/edeb3083-c6ca-49ba-8e87-8743a9fa5e62.png",
 		bullets: [],
@@ -132,9 +132,9 @@ export const workArray = [
 	},
 	{
 		schoolName: "Front-End Development Engineer II",
-		location: "IRVING, TX",
-		degree: "MICHAELS",
-		dates: "NOV. 2020 - jUNE 2021",
+		location: "Irving, TX",
+		degree: "Michaels",
+		dates: "Nov. 2020 - June 2021",
 		imgSrc:
 			"https://media.glassdoor.com/sqll/945/michaels-stores-squarelogo-1516299389115.png",
 		bullets: [],
@@ -149,7 +149,7 @@ export const workArray = [
 	},
 	{
 		schoolName: "Web Application Developer Freelancer",
-		location: "remote start-up",
+		location: "Remote",
 		degree: "Abode (formerly Scholars)",
 		dates: "May 2020 - Nov. 2020",
 		imgSrc: "/imgs/abode_logo.jpg",
@@ -167,9 +167,9 @@ export const workArray = [
 
 	{
 		schoolName: "Web Application Developer Freelancer",
-		location: "remote start-up",
+		location: "Remote",
 		degree: "TallySight",
-		dates: "July 2020 - SEPT. 2020",
+		dates: "July 2020 - Sept. 2020",
 		imgSrc:
 			"data:image/png;base64,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",
 		bullets: [],
@@ -231,7 +231,7 @@ export const educationArray = [
 		bullets: [
 			"Specializing in Computer Systems and Networks",
 			"Highest Honors",
-			"Courses taken (10): Intro to InfoSec, Computer Networks, Network Security, DB System Concepts & Design, Software Analysis & Testing, Computer Law, Global Entrepeneurship, Robotic AI Techniques, Natural Language Processing, Graduate Algorithms",
+			"Courses taken (10): Intro to InfoSec, Computer Networks, Network Security, DB System Concepts & Design, Software Analysis & Testing, Computer Law, Global Entrepreneurship, Robotic AI Techniques, Natural Language Processing, Graduate Algorithms",
 		],
 		subColor: "#B3A26A",
 	},
@@ -298,7 +298,7 @@ export const backendArray = [
 	},
 ];
 
-export const framworksAndLibrariesArray = [
+export const frameworksAndLibrariesArray = [
 	{
 		imgSrc: "https://miro.medium.com/max/900/1*KANHihva9OdXx2-V5EDn3g.png",
 		name: "React (JS & Native)",
@@ -379,6 +379,7 @@ const Resume = () => {
 						{/* <a href="https://opensea.io/aeserna" target="_blank"> */}
 						<img
 							src="/imgs/allans.jpg"
+							alt="Allan E. Serna"
 							style={{
 								objectFit: "cover",
 								objectPosition: "top",
@@ -391,7 +392,7 @@ const Resume = () => {
 						{/* </a> */}
 					</div>
 					<div className="flex  justify-center my-10">
-						<a href="/docs/AllanSernaResume.pdf" target="_blank" download>
+						<a href="/docs/AllanSernaResume.pdf" target="_blank" rel="noopener noreferrer" download>
 							<button className="text-whippy uppercase tracking-widest flex p-4">
 								<AiOutlineCloudDownload className="text-2xl mr-2" />
 								Download Resume
@@ -407,9 +408,8 @@ const Resume = () => {
 
 				{workArray.map((work) => {
 					return (
-						<>
+						<React.Fragment key={work.degree}>
 							<EducationCard
-								key={work.degree}
 								schoolName={work.schoolName}
 								location={work.location}
 								degree={work.degree}
@@ -496,7 +496,7 @@ const Resume = () => {
 									/>
 								</div>
 							)} */}
-						</>
+						</React.Fragment>
 					);
 				})}
 			</div>
@@ -509,7 +509,7 @@ const Resume = () => {
 
 				{educationArray.map((edu) => (
 					<EducationCard
-						key={edu.schoolName}
+						key={edu.degree}
 						schoolName={edu.schoolName}
 						location={edu.location}
 						degree={edu.degree}
@@ -539,7 +539,7 @@ const Resume = () => {
 					<div className="text-center pb-12">Frameworks & Libraries</div>
 
 					<div className="flex justify-around flex-wrap">
-						{framworksAndLibrariesArray.map((pl) => (
+						{frameworksAndLibrariesArray.map((pl) => (
 							<SkillCard key={pl.name} name={pl.name} imgSrc={pl.imgSrc} />
 						))}
 					</div>
@@ -565,7 +565,7 @@ const Resume = () => {
 			</div>
 
 			<div className="flex  justify-center">
-				<a href="/docs/AllanSernaResume.pdf" target="_blank" download>
+				<a href="/docs/AllanSernaResume.pdf" target="_blank" rel="noopener noreferrer" download>
 					<button className="text-whippy p-4 ">
 						<AiOutlineCloudDownload className="text-2xl" />
 					</button>

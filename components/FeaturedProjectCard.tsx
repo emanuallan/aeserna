@@ -28,7 +28,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 				<div className="md:flex-shrink-0">
 					<img
 						src={imgSrc}
-						alt="mountains"
+						alt={title}
 						className="w-full object-cover h-64 rounded-lg rounded-b-none"
 					/>
 				</div>
@@ -41,7 +41,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 								>
-									<path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17pv-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+									<path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
 								</svg>
 								Start-Up
 							</p>
@@ -88,6 +88,7 @@ const FeaturedProjectCard: React.FC<FeaturedProjectCardProps> = ({
 									className="text-blue-500 font-bold underline"
 									href={site}
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Visit Site
 								</a>

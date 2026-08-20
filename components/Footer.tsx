@@ -15,7 +15,7 @@ const Footer = () => {
 
 			<div className="flex">
 				<BsLightningFill className="text-firebase mt-1" /> <span className="mx-1">by</span>
-				<a href="https://github.com/emanuallan/aeserna" className="underline" target="_blank">
+				<a href="https://github.com/emanuallan/aeserna" className="underline" target="_blank" rel="noopener noreferrer">
 					{" "}
 					netlify
 				</a>

@@ -6,7 +6,7 @@ interface EducationCardProps {
 	degree: string;
 	dates: string;
 	imgSrc: string;
-	bullets: any[];
+	bullets: string[];
 	subColor?: string;
 	description?: string;
 }
@@ -27,6 +27,7 @@ const EducationCard: React.FC<EducationCardProps> = ({
 				<div className="w-full sm:w-auto flex justify-center">
 					<img
 						src={imgSrc}
+						alt={degree}
 						className="mr-0 sm:mr-10  mb-6  md:mb-0 h-24 w-24  rounded-full bg-whippy"
 					/>
 				</div>

@@ -5,15 +5,15 @@ interface FeatureCardProps {
 	tags: string;
 	info: string;
 	imgSrc?: string;
-	icons: JSX.Element[];
-	code: string;
-	demo: string;
+	icons?: JSX.Element[];
+	code?: string;
+	demo?: string;
 }
 
-const FeatureCard: React.FC<FeatureCardProps> = ({ title, tags, info, imgSrc, icons, code, demo }) => {
+const FeatureCard: React.FC<FeatureCardProps> = ({ title, tags, info, imgSrc }) => {
 	return (
 		<div className=" bg-white shadow-xl rounded-lg overflow-hidden my-6 mx-4">
-			{imgSrc && <img className="w-full h-auto object-center" src={imgSrc} alt="avatar" />}
+			{imgSrc && <img className="w-full h-auto object-center" src={imgSrc} alt={title} />}
 			<div className="flex items-center px-6 py-3 bg-charcoal">
 				<TiLightbulb className="h-6 w-6 text-white fill-current" />
 
@@ -43,9 +43,6 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, tags, info, imgSrc, ic
 					</svg>
 					<h1 className="px-2 text-sm">patterson@example.com</h1>
 				</div> */}
-				{false && icons}
-				{false && code}
-				{false && demo}
 			</div>
 		</div>
 	);

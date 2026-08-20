@@ -46,7 +46,7 @@ const TallySight = () => {
 		{
 			title: "Custom Image Generator",
 			tags: "Social Media Content Sharing",
-			info: "Feature for Analysts on the platform that allows them to share picks for inidividual games or events (ex. NFL week 2). The generator creates a nice graphic for the Analyst based on their preferences which then allows them to download it and share it on social media platforms. This tool features the npm package html-to-image which also needed a proxy to work.",
+			info: "Feature for Analysts on the platform that allows them to share picks for individual games or events (ex. NFL week 2). The generator creates a nice graphic for the Analyst based on their preferences which then allows them to download it and share it on social media platforms. This tool features the npm package html-to-image which also needed a proxy to work.",
 			imgSrc: "/gifs/graphic-generator.gif",
 			icons: [ReactIcon],
 			code: "https://github.com/emanuallan/weather-app",
@@ -143,7 +143,7 @@ const TallySight = () => {
 			<div className="grid md:grid-cols-2 grid-cols-1 gap-1">
 				{features?.map((f) => (
 					<FeatureCard
-						key={f.info}
+						key={f.title}
 						info={f.info}
 						tags={f.tags}
 						imgSrc={f.imgSrc}

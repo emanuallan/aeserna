@@ -20,7 +20,7 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({ title, info, imgSrc, ic
 					style={{
 						backgroundImage: `url(${imgSrc})`,
 					}}
-					title="Woman holding a mug"
+					title={title}
 				></div>
 				<div className="border-r shadow-xl border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
 					<div className="mb-8">
@@ -39,18 +39,30 @@ const HorizontalCard: React.FC<HorizontalCardProps> = ({ title, info, imgSrc, ic
 					</div>
 					<div className="flex justify-between">
 						<div className="flex items-center">
-							{icons?.map((icon) => (
-								<span className="mr-2">{icon}</span>
+							{icons?.map((icon, i) => (
+								<span className="mr-2" key={i}>
+									{icon}
+								</span>
 							))}
 						</div>
 						<div className="flex items-center">
 							{code && (
-								<a href={code} target="_blank">
+								<a
+									href={code}
+									target="_blank"
+									rel="noopener noreferrer"
+									aria-label={`${title} source code`}
+								>
 									<DiGithubAlt className="text-3xl text-charcoal mr-2" />
 								</a>
 							)}
 							{demo && (
-								<a href={demo} target="_blank">
+								<a
+									href={demo}
+									target="_blank"
+									rel="noopener noreferrer"
+									aria-label={`${title} demo`}
+								>
 									<FaPlay className="text-lg text-charcoal" />
 								</a>
 							)}

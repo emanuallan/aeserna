@@ -44,16 +44,26 @@ const Menu = () => {
 			</div>
 			<div className=" w-full menuMin:w-32 flex justify-center ">
 				<div className="flex flex-wrap justify-between w-32">
-					<a href="https://www.linkedin.com/in/allan-serna/" target="_blank">
+					<a
+						href="https://www.linkedin.com/in/allan-serna/"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="LinkedIn"
+					>
 						<RiLinkedinLine className={`w-6 h-6 text-whippy`} />
 					</a>
-					<a href="https://github.com/emanuallan/" target="_blank">
+					<a
+						href="https://github.com/emanuallan/"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="GitHub"
+					>
 						<RiGithubLine className={`w-6 h-6 text-whippy`} />
 					</a>
 					{/* <a href="https://twitter.com/allaneserna" target="_blank">
 						<RiTwitterLine className={`w-6 h-6 text-whippy`} />
 					</a> */}
-					<a href="mailto:emanuallan@gmail.com" target="_blank">
+					<a href="mailto:emanuallan@gmail.com" aria-label="Email">
 						<RiMailLine className={`w-6 h-6 text-whippy`} />
 					</a>
 				</div>

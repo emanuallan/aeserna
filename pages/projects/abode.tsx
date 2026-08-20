@@ -171,7 +171,7 @@ const Abode = () => {
 			<div className="grid md:grid-cols-2 grid-cols-1 gap-1">
 				{features?.map((f) => (
 					<FeatureCard
-						key={f.info}
+						key={f.title}
 						info={f.info}
 						tags={f.tags}
 						imgSrc={f.imgSrc}
